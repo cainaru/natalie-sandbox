@@ -1,0 +1,22 @@
+uuid: 99c59be9-01aa-47e5-ae32-dce08357677d
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - university_bootstrap
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: university_bootstrap_help
+theme: university_bootstrap
+region: help
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

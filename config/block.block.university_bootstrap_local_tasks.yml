@@ -1,0 +1,22 @@
+uuid: 75143a13-4a07-4c63-b4b7-0194195104f3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - university_bootstrap
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: university_bootstrap_local_tasks
+theme: university_bootstrap
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
