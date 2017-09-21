@@ -1,15 +1,15 @@
-uuid: 69867b37-f051-46de-aad4-f380ab0a1f33
+uuid: ddc5220e-2644-484e-ba6d-fb2d94591905
 langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
+    - university_bootstrap
 _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
-id: bartik_page_title
-theme: bartik
-region: content
-weight: -50
+id: university_bootstrap_page_title
+theme: university_bootstrap
+region: header
+weight: -3
 provider: null
 plugin: page_title_block
 settings:

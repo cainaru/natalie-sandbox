@@ -1,17 +1,17 @@
-uuid: a7b5e952-b45a-4655-a835-655b9e28ad91
+uuid: 14ed49e7-dc17-48a8-9f6f-45551d4300ef
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - university_bootstrap
 _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: bartik_branding
-theme: bartik
-region: header
-weight: 0
+id: university_bootstrap_branding
+theme: university_bootstrap
+region: navigation
+weight: -7
 provider: null
 plugin: system_branding_block
 settings:
@@ -19,7 +19,7 @@ settings:
   label: 'Site branding'
   provider: system
   label_display: '0'
-  use_site_logo: true
+  use_site_logo: false
   use_site_name: true
-  use_site_slogan: true
+  use_site_slogan: false
 visibility: {  }

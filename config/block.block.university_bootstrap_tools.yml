@@ -1,19 +1,19 @@
-uuid: 9dd64e73-bc5d-4bcf-ad01-b4e6c0c4a3cd
+uuid: 633769c7-a77a-4b46-b95f-b0332ae460dc
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
   module:
     - system
   theme:
-    - bartik
+    - university_bootstrap
 _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
-id: bartik_tools
-theme: bartik
-region: sidebar_first
-weight: 0
+id: university_bootstrap_tools
+theme: university_bootstrap
+region: sidebar_second
+weight: -5
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

@@ -1,15 +1,15 @@
-uuid: 901bdee4-6846-404f-a8fd-bfc738506ab4
+uuid: 6dd29c59-704c-4620-8326-420a97990d34
 langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
+    - university_bootstrap
 _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
-id: bartik_local_actions
-theme: bartik
-region: content
-weight: -20
+id: university_bootstrap_local_actions
+theme: university_bootstrap
+region: header
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:

@@ -1,4 +1,4 @@
-uuid: d678151b-607a-443e-8a27-3e635c802b0e
+uuid: c522787d-8649-441d-99a9-f7d0e33bf678
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - university_bootstrap
 _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: bartik_footer
-theme: bartik
-region: footer_fifth
-weight: 0
+id: university_bootstrap_footer
+theme: university_bootstrap
+region: footer
+weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
