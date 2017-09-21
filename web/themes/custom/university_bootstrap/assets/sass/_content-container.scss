@@ -1,0 +1,17 @@
+// Content max-width for various screens
+//
+// Max-width for content when viewed on a designated screen.
+
+.content-container {
+  @include content-max-width($screen-sm-min, $content-max-width);
+}
+
+.node--type-legacy-photo-essay,
+.node--type-photograph,
+.node--type-article {
+  @include content-max-width($screen-sm-min, $content-max-width);
+}
+
+.page-node-type-narrative .page-header-wrapper .content-container {
+  @include content-max-width($screen-sm-min, 40em);
+}
