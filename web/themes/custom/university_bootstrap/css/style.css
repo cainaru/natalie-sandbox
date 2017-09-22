@@ -557,6 +557,16 @@ h6 {
 .card-item-teaser h2 {
   font-size: 2rem; }
 
+figure[role=group] {
+  display: table; }
+  figure[role=group] > .embedded-entity {
+    display: block;
+    max-width: 100%; }
+  figure[role=group] > figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    max-width: none; }
+
 .bs-region.bs-region--left h1,
 .bs-region.bs-region--right h1 {
   margin-top: 0; }
