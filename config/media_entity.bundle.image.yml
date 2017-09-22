@@ -1,0 +1,16 @@
+uuid: 22df1241-4722-4ae9-a3a8-e28b62b60c09
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity_image
+id: image
+label: Image
+description: 'Locally hosted images.'
+type: image
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: ''
+  gather_exif: true
+field_map: {  }
