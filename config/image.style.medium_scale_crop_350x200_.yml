@@ -1,0 +1,14 @@
+uuid: e4a3b14c-b1aa-4426-8217-925daa9e390c
+langcode: en
+status: true
+dependencies: {  }
+name: medium_scale_crop_350x200_
+label: 'Medium Scale Crop (350x200)'
+effects:
+  6dbca83c-c478-4cd7-b23e-d24aa68c7f5b:
+    uuid: 6dbca83c-c478-4cd7-b23e-d24aa68c7f5b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 220
