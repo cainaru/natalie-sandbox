@@ -18,12 +18,13 @@ use Drupal\Core\Annotation\Translation;
  *   defaultValue = "university-default",
  *   description = @Translation("Choose a color theme for the Navbar header."),
  *   groups = {
- *     "university_bootstrap" = "University Navbar",
+ *     "university_bootstrap" = "University Navbar Color",
  *   },
  *   options = {
- *     "university-default" = @Translation("Default Light Gray"),
+ *     "university-default" = @Translation("Default Black"),
  *     "university-scarlet" = @Translation("University Scarlet"),
- *     "university-black" = @Translation("Black"),
+ *     "university-brown" = @Translation("University Brown"),
+ *     "university-light-gray" = @Translation("Light Gray"),
  *     "university-gray" = @Translation("Dark Gray"),
  *   },
  * )
