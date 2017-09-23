@@ -448,6 +448,67 @@ h1.navbar-brand {
     .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
       color: #444; }
 
+.university-scarlet.navbar-inverse {
+  background-color: #A90018;
+  border-color: #760011; }
+  .university-scarlet.navbar-inverse .navbar-brand a {
+    color: #fff; }
+    .university-scarlet.navbar-inverse .navbar-brand a:hover, .university-scarlet.navbar-inverse .navbar-brand a:focus {
+      color: #DECFA8;
+      background-color: transparent; }
+  .university-scarlet.navbar-inverse .navbar-text {
+    color: #fff; }
+  .university-scarlet.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-weight: 500; }
+    .university-scarlet.navbar-inverse .navbar-nav > li > a:hover, .university-scarlet.navbar-inverse .navbar-nav > li > a:focus {
+      color: #DECFA8;
+      background-color: transparent; }
+  .university-scarlet.navbar-inverse .navbar-nav > .active > a, .university-scarlet.navbar-inverse .navbar-nav > .active > a:hover, .university-scarlet.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #DECFA8;
+    background-color: #760011; }
+  .university-scarlet.navbar-inverse .navbar-nav > .disabled > a, .university-scarlet.navbar-inverse .navbar-nav > .disabled > a:hover, .university-scarlet.navbar-inverse .navbar-nav > .disabled > a:focus {
+    color: #444;
+    background-color: transparent; }
+  .university-scarlet.navbar-inverse .navbar-toggle {
+    border-color: #760011; }
+    .university-scarlet.navbar-inverse .navbar-toggle:hover, .university-scarlet.navbar-inverse .navbar-toggle:focus {
+      background-color: #760011; }
+    .university-scarlet.navbar-inverse .navbar-toggle .icon-bar {
+      background-color: #fff; }
+  .university-scarlet.navbar-inverse .navbar-collapse,
+  .university-scarlet.navbar-inverse .navbar-form {
+    border-color: #850013; }
+  .university-scarlet.navbar-inverse .navbar-nav > .open > a, .university-scarlet.navbar-inverse .navbar-nav > .open > a:hover, .university-scarlet.navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #760011;
+    color: #DECFA8; }
+  @media (max-width: 767px) {
+    .university-scarlet.navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+      border-color: #760011; }
+    .university-scarlet.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+      background-color: #760011; }
+    .university-scarlet.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+      color: #fff; }
+      .university-scarlet.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .university-scarlet.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #DECFA8;
+        background-color: transparent; }
+    .university-scarlet.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .university-scarlet.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .university-scarlet.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #DECFA8;
+      background-color: #760011; }
+    .university-scarlet.navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .university-scarlet.navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .university-scarlet.navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+      color: #444;
+      background-color: transparent; } }
+  .university-scarlet.navbar-inverse .navbar-link {
+    color: #fff; }
+    .university-scarlet.navbar-inverse .navbar-link:hover {
+      color: #DECFA8; }
+  .university-scarlet.navbar-inverse .btn-link {
+    color: #fff; }
+    .university-scarlet.navbar-inverse .btn-link:hover, .university-scarlet.navbar-inverse .btn-link:focus {
+      color: #DECFA8; }
+    .university-scarlet.navbar-inverse .btn-link[disabled]:hover, .university-scarlet.navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .university-scarlet.navbar-inverse .btn-link:hover, fieldset[disabled] .university-scarlet.navbar-inverse .btn-link:focus {
+      color: #444; }
+
 html {
   font-size: 10px; }
 
