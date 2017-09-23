@@ -1,0 +1,32 @@
+uuid: 406e5c51-723a-4041-8042-7479fe53159d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_elements
+    - node.type.narrative
+  module:
+    - entity_reference_revisions
+id: node.narrative.field_elements
+field_name: field_elements
+entity_type: node
+bundle: narrative
+label: Elements
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      breakout:
+        weight: 3
+        enabled: false
+      text:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

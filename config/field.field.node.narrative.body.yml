@@ -1,0 +1,22 @@
+uuid: e9561bd1-cf94-425c-8795-d9bd94516662
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.narrative
+  module:
+    - text
+id: node.narrative.body
+field_name: body
+entity_type: node
+bundle: narrative
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
