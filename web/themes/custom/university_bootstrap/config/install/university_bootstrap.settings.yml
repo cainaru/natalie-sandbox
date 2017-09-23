@@ -10,3 +10,6 @@
 # @see \Drupal\bootstrap\Plugin\SettingManager
 # @see \Drupal\bootstrap\Plugin\Form\SystemThemeSettings
 # @see \Drupal\bootstrap\ThemeSettings
+
+fluid_container: 1
+navbar_position: 'fixed-top'
