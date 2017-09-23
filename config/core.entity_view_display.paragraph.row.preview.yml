@@ -1,0 +1,13 @@
+uuid: dd5e18c1-823e-4f6f-99a8-5dfe9bbf718a
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - paragraphs.paragraphs_type.row
+id: paragraph.row.preview
+targetEntityType: paragraph
+bundle: row
+mode: preview
+content: {  }
+hidden: {  }

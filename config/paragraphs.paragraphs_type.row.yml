@@ -1,0 +1,9 @@
+uuid: 54910caf-4135-4e6d-b4fb-3c4cf82fd52a
+langcode: en
+status: true
+dependencies: {  }
+id: row
+label: Row
+icon_uuid: null
+description: 'Row paragraph.'
+behavior_plugins: {  }

@@ -1,27 +1,27 @@
-uuid: 8f42e589-4dab-4fc5-9731-a675ada56490
+uuid: 17116f26-d339-4e31-8162-1e92ea9572bb
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.breakout.field_breakout_content
-    - paragraphs.paragraphs_type.breakout
+    - field.field.paragraph.row.field_row_contents
+    - paragraphs.paragraphs_type.row
   module:
     - paragraphs
-id: paragraph.breakout.default
+id: paragraph.row.default
 targetEntityType: paragraph
-bundle: breakout
+bundle: row
 mode: default
 content:
-  field_breakout_content:
+  field_row_contents:
     type: entity_reference_paragraphs
     weight: 0
     settings:
-      title: Row
-      title_plural: Rows
-      edit_mode: open
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: preview
       add_mode: button
       form_display_mode: default
-      default_paragraph_type: row
+      default_paragraph_type: text
     third_party_settings: {  }
     region: content
 hidden:

@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.node.field_elements
     - node.type.narrative
+    - paragraphs.paragraphs_type.breakout
+    - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
 id: node.narrative.field_elements
@@ -21,12 +23,20 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     negate: 0
-    target_bundles: null
+    target_bundles:
+      text: text
+      breakout: breakout
     target_bundles_drag_drop:
-      breakout:
-        weight: 3
-        enabled: false
       text:
-        weight: 4
+        enabled: true
+        weight: -9
+      breakout:
+        enabled: true
+        weight: -8
+      row:
+        weight: -7
+        enabled: false
+      column:
+        weight: -6
         enabled: false
 field_type: entity_reference_revisions
