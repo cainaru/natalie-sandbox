@@ -182,6 +182,31 @@ $navbar-inverse-toggle-icon-bar-bg:         #fff;
 $navbar-inverse-toggle-border-color:        #333;
 
 
+//=== University Scarlet Inverted navbar
+// Reset University Scarlet inverted navbar basics
+$university-scarlet-navbar-inverse-color:                      #fff;
+$university-scarlet-navbar-inverse-bg:                         $color-red;
+$university-scarlet-navbar-inverse-border:                     darken($university-scarlet-navbar-inverse-bg, 10%);
+
+// University Scarlet Inverted navbar links
+$university-scarlet-navbar-inverse-link-color:                 #fff;
+$university-scarlet-navbar-inverse-link-hover-color:           $color-gold;
+$university-scarlet-navbar-inverse-link-hover-bg:              transparent;
+$university-scarlet-navbar-inverse-link-active-color:          $university-scarlet-navbar-inverse-link-hover-color;
+$university-scarlet-navbar-inverse-link-active-bg:             darken($university-scarlet-navbar-inverse-bg, 10%);
+$university-scarlet-navbar-inverse-link-disabled-color:        #444;
+$university-scarlet-navbar-inverse-link-disabled-bg:           transparent;
+
+// University Scarlet Inverted navbar brand label
+$university-scarlet-navbar-inverse-brand-color:                $university-scarlet-navbar-inverse-link-color;
+$university-scarlet-navbar-inverse-brand-hover-color:          $color-gold;
+$university-scarlet-navbar-inverse-brand-hover-bg:             transparent;
+
+// University Scarlet Inverted navbar toggle
+$university-scarlet-navbar-inverse-toggle-hover-bg:            darken($university-scarlet-navbar-inverse-bg, 10%);
+$university-scarlet-navbar-inverse-toggle-icon-bar-bg:         #fff;
+$university-scarlet-navbar-inverse-toggle-border-color:        darken($university-scarlet-navbar-inverse-bg, 10%);
+
 //== Media queries breakpoints
 //
 //## Define the breakpoints at which your layout will change, adapting to different screen sizes.
