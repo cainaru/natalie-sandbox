@@ -1,18 +1,18 @@
-uuid: da96eebb-1169-465a-a286-7ec9a10e8de9
+uuid: 3058243e-3f78-4bfb-b47c-fb515c21b45f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_breakout_content
-    - paragraphs.paragraphs_type.breakout
+    - field.storage.paragraph.field_row_contents
+    - paragraphs.paragraphs_type.column
     - paragraphs.paragraphs_type.row
   module:
     - entity_reference_revisions
-id: paragraph.breakout.field_breakout_content
-field_name: field_breakout_content
+id: paragraph.row.field_row_contents
+field_name: field_row_contents
 entity_type: paragraph
-bundle: breakout
-label: Rows
+bundle: row
+label: Columns
 description: ''
 required: false
 translatable: false
@@ -23,18 +23,18 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      row: row
+      column: column
     target_bundles_drag_drop:
-      breakout:
-        weight: 3
-        enabled: false
       row:
-        enabled: true
-        weight: 4
-      text:
         weight: 4
         enabled: false
       column:
+        enabled: true
         weight: 5
+      breakout:
+        weight: 5
+        enabled: false
+      text:
+        weight: 6
         enabled: false
 field_type: entity_reference_revisions
