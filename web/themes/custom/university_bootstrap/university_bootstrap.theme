@@ -6,3 +6,22 @@
  * Place your custom PHP code in this file.
  */
  
+ /**
+ * Implements hook_preprocess_HOOK().
+ */
+function university_bootstrap_preprocess_page(&$variables) {
+
+  if (isset($variables['node'])) {
+    $type = $variables['node']->getType();
+    switch ($type) {
+      case "narrative":
+        $variables['template_type'] = "edge-to-edge";
+        break;
+      default:
+      $variables['template_type'] = "content-container";
+    }
+  }
+  else {
+    $variables['template_type'] = "content-container";
+  }
+}
