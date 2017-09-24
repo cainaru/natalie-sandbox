@@ -9,7 +9,7 @@ _core:
 id: university_bootstrap_local_actions
 theme: university_bootstrap
 region: header
-weight: -5
+weight: -6
 provider: null
 plugin: local_actions_block
 settings:

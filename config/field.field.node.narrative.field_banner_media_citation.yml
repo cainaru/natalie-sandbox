@@ -1,0 +1,21 @@
+uuid: 5e15bf27-b4aa-48d0-9ea2-eb224686ccbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner_media_citation
+    - node.type.narrative
+  module:
+    - text
+id: node.narrative.field_banner_media_citation
+field_name: field_banner_media_citation
+entity_type: node
+bundle: narrative
+label: 'Banner Media Citation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
