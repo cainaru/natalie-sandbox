@@ -519,7 +519,10 @@ body {
 p {
   line-height: 1.5;
   margin-bottom: 1em;
-  margin-top: 1em; }
+  margin-top: 1em;
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto; }
 
 a {
   text-decoration: underline; }
@@ -603,6 +606,8 @@ h6 {
 
 figure[role=group] {
   display: table; }
+  figure[role=group].align-left, figure[role=group].align-right {
+    margin: 1em; }
   figure[role=group] > .embedded-entity {
     display: block;
     max-width: 100%; }
