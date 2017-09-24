@@ -8,8 +8,9 @@ dependencies:
     - field.field.media.image.field_image
     - field.field.media.image.field_width
     - media_entity.bundle.image
+    - responsive_image.styles.banner_media_image
   module:
-    - image
+    - responsive_image
 id: media.image.banner_media_image
 targetEntityType: media
 bundle: image
@@ -19,10 +20,10 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: ''
+      responsive_image_style: banner_media_image
       image_link: ''
     third_party_settings: {  }
-    type: image
+    type: responsive_image
     region: content
 hidden:
   created: true
