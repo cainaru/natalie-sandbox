@@ -46,12 +46,16 @@
 %}
 
 {% if label_hidden %}
-  {% for item in items %}
-    {{ item.content }}
-  {% endfor %}
+  {%- for item in items -%}
+    <div class="column__{{ loop.length }}col">
+      {{ item.content }}
+    </div>
+  {%- endfor -%}
 {% else %}
   <div{{ title_attributes.addClass(title_classes) }}>{{ label }}</div>
   {% for item in items %}
-    {{ item.content }}
+    <div class="column__{{ loop.length }}col">
+      {{ item.content }}
+    </div>
   {% endfor %}
 {% endif %}
