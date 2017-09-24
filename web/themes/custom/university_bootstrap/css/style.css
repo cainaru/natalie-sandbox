@@ -2,7 +2,8 @@
  * Place your custom styles here.
  */
 .paragraph.breakout {
-  margin-top: 1em; }
+  margin-top: 2em;
+  margin-bottom: 2em; }
   .paragraph.breakout .container-fluid {
     margin-top: 3rem;
     margin-bottom: 3rem; }
