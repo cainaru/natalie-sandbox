@@ -1,6 +1,12 @@
 /**
  * Place your custom styles here.
  */
+.paragraph.breakout {
+  margin-top: 1em; }
+  .paragraph.breakout .container-fluid {
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
+
 .column__1col,
 .column__2col,
 .column__3col,
