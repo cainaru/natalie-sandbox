@@ -605,7 +605,8 @@ h6 {
   font-size: 2rem; }
 
 figure[role=group] {
-  display: table; }
+  display: table;
+  margin: 1em; }
   figure[role=group] > .embedded-entity {
     display: block;
     max-width: 100%; }
