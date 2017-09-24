@@ -20,7 +20,12 @@
 
 figure[role=group] {
   display: table;
-  margin: 1em;
+
+  &.align-left,
+  &.align-right {
+    margin: 1em;
+  }
+
   & > .embedded-entity {
     display: block;
     max-width: 100%;

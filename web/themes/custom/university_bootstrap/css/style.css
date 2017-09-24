@@ -605,8 +605,9 @@ h6 {
   font-size: 2rem; }
 
 figure[role=group] {
-  display: table;
-  margin: 1em; }
+  display: table; }
+  figure[role=group].align-left, figure[role=group].align-right {
+    margin: 1em; }
   figure[role=group] > .embedded-entity {
     display: block;
     max-width: 100%; }
