@@ -14,8 +14,6 @@ p {
   margin-bottom: 1em;
   margin-top: 1em;
   max-width: 70rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 a {
@@ -105,6 +103,11 @@ h6 {
 
 .page-header {
   margin-top: 3rem;
+}
+
+.page-node-type-narrative p {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .subtitle {
