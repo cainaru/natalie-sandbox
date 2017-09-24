@@ -1,0 +1,46 @@
+.columns__1col,
+.columns__2col,
+.columns__3col,
+.columns__4col,
+.columns__5col,
+.columns__6col {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.columns__2col {
+  @media (min-width: $screen-sm-min) {
+  	width: 50%;
+  	float: left;
+  }
+}
+
+.columns__3col {
+  @media (min-width: $screen-sm-min) {
+  	width: 33.33333333%;
+  	float: left;
+  }
+}
+
+.columns__4col {
+  @media (min-width: $screen-sm-min) {
+  	width: 25%;
+  	float: left;
+  }
+}
+
+.columns__5col {
+  @media (min-width: $screen-sm-min) {
+  	width: 20%;
+  	float: left;
+  }
+}
+
+.columns__6col {
+  @media (min-width: $screen-sm-min) {
+  	width: 16.66666667%;
+  	float: left;
+  }
+}

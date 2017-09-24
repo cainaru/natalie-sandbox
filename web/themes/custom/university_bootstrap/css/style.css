@@ -1,6 +1,42 @@
 /**
  * Place your custom styles here.
  */
+.columns__1col,
+.columns__2col,
+.columns__3col,
+.columns__4col,
+.columns__5col,
+.columns__6col {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+@media (min-width: 768px) {
+  .columns__2col {
+    width: 50%;
+    float: left; } }
+
+@media (min-width: 768px) {
+  .columns__3col {
+    width: 33.33333333%;
+    float: left; } }
+
+@media (min-width: 768px) {
+  .columns__4col {
+    width: 25%;
+    float: left; } }
+
+@media (min-width: 768px) {
+  .columns__5col {
+    width: 20%;
+    float: left; } }
+
+@media (min-width: 768px) {
+  .columns__6col {
+    width: 16.66666667%;
+    float: left; } }
+
 .btn {
   display: inline-block;
   margin-bottom: 0;
