@@ -1,0 +1,14 @@
+uuid: 5835236d-7430-4991-8c28-8e6958670f5e
+langcode: en
+status: true
+dependencies: {  }
+name: extra_small_screen_480x270_
+label: 'Extra Small Screen (480x270)'
+effects:
+  91dae2cc-61e9-4df2-b1a7-d21e2f29a3c8:
+    uuid: 91dae2cc-61e9-4df2-b1a7-d21e2f29a3c8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 270

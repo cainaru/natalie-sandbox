@@ -1,0 +1,14 @@
+uuid: 7b410843-e817-423f-ab9b-60741e9b7f19
+langcode: en
+status: true
+dependencies: {  }
+name: medium_screen_992x558_
+label: 'Medium Screen (992x558)'
+effects:
+  d5a8d311-4930-46cb-a9c7-349d03d66367:
+    uuid: d5a8d311-4930-46cb-a9c7-349d03d66367
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 992
+      height: 558
