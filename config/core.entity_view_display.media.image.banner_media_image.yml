@@ -1,0 +1,33 @@
+uuid: fa315293-bb57-4762-b0d3-b9099d0524cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.banner_media_image
+    - field.field.media.image.field_height
+    - field.field.media.image.field_image
+    - field.field.media.image.field_width
+    - media_entity.bundle.image
+  module:
+    - image
+id: media.image.banner_media_image
+targetEntityType: media
+bundle: image
+mode: banner_media_image
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  field_height: true
+  field_width: true
+  name: true
+  thumbnail: true
+  uid: true

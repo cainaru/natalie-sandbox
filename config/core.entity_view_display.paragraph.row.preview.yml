@@ -10,4 +10,5 @@ targetEntityType: paragraph
 bundle: row
 mode: preview
 content: {  }
-hidden: {  }
+hidden:
+  field_row_contents: true
