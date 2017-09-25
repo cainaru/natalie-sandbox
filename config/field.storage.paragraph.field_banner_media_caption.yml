@@ -1,13 +1,13 @@
-uuid: 7bf90d0c-69d5-47e3-9aee-8cd21d2a6516
+uuid: 8fff948d-ea27-44ad-ba66-9bc2e6734e44
 langcode: en
 status: true
 dependencies:
   module:
-    - node
+    - paragraphs
     - text
-id: node.field_banner_media_caption
+id: paragraph.field_banner_media_caption
 field_name: field_banner_media_caption
-entity_type: node
+entity_type: paragraph
 type: text_long
 settings: {  }
 module: text

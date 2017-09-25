@@ -1,19 +1,18 @@
-uuid: 406e5c51-723a-4041-8042-7479fe53159d
+uuid: 1dfa8836-f214-4ade-82e2-4461f8c5087a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_elements
+    - field.storage.node.field_banner_media_element
     - node.type.narrative
-    - paragraphs.paragraphs_type.breakout
-    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.banner_media
   module:
     - entity_reference_revisions
-id: node.narrative.field_elements
-field_name: field_elements
+id: node.narrative.field_banner_media_element
+field_name: field_banner_media_element
 entity_type: node
 bundle: narrative
-label: 'Main Content'
+label: 'Featured Media'
 description: ''
 required: false
 translatable: false
@@ -24,22 +23,21 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      text: text
-      breakout: breakout
+      banner_media: banner_media
     target_bundles_drag_drop:
-      text:
+      banner_media:
         enabled: true
-        weight: -9
+        weight: 6
       breakout:
-        enabled: true
-        weight: -8
-      row:
-        weight: -7
+        weight: 7
         enabled: false
       column:
-        weight: -6
+        weight: 8
         enabled: false
-      banner_media:
-        weight: 6
+      row:
+        weight: 9
+        enabled: false
+      text:
+        weight: 10
         enabled: false
 field_type: entity_reference_revisions

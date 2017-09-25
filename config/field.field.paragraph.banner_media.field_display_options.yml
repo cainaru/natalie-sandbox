@@ -1,0 +1,21 @@
+uuid: c538fc39-6430-4704-9d27-041b78d7d7c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_display_options
+    - paragraphs.paragraphs_type.banner_media
+  module:
+    - options
+id: paragraph.banner_media.field_display_options
+field_name: field_display_options
+entity_type: paragraph
+bundle: banner_media
+label: 'Display Options'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

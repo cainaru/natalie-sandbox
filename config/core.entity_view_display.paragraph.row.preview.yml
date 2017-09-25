@@ -1,14 +1,25 @@
 uuid: dd5e18c1-823e-4f6f-99a8-5dfe9bbf718a
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.row.field_row_contents
     - paragraphs.paragraphs_type.row
+  module:
+    - entity_reference_revisions
 id: paragraph.row.preview
 targetEntityType: paragraph
 bundle: row
 mode: preview
-content: {  }
-hidden:
-  field_row_contents: true
+content:
+  field_row_contents:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,16 +1,16 @@
-uuid: 5451d7b6-b63a-4022-99d9-b186be7bf197
+uuid: ce65e052-081f-44da-896c-b71d8f350cfe
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_banner_media
+    - field.storage.paragraph.field_banner_media
     - media_entity.bundle.image
-    - node.type.narrative
-id: node.narrative.field_banner_media
+    - paragraphs.paragraphs_type.banner_media
+id: paragraph.banner_media.field_banner_media
 field_name: field_banner_media
-entity_type: node
-bundle: narrative
-label: 'Banner Media'
+entity_type: paragraph
+bundle: banner_media
+label: Media
 description: ''
 required: false
 translatable: false
