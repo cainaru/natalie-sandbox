@@ -666,6 +666,12 @@ figcaption.banner-media-caption.caption {
   text-align: right; }
   figcaption.banner-media-caption.caption span {
     display: inline-block; }
+  figcaption.banner-media-caption.caption .caption-text, figcaption.banner-media-caption.caption .caption-text p {
+    font-size: 1.4rem;
+    margin-top: 0; }
+  figcaption.banner-media-caption.caption .citation, figcaption.banner-media-caption.caption .citation p {
+    font-size: 1.2rem;
+    margin-top: 0; }
 
 .color-gray-light {
   background-color: #f2f2f2; }

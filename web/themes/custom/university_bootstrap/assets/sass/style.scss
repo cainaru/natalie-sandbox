@@ -47,6 +47,18 @@ figcaption.banner-media-caption.caption {
   & span {
     display: inline-block;
   }
+
+  & .caption-text,
+  & .caption-text p {
+    font-size: 1.4rem;
+    margin-top: 0;
+  }
+
+  & .citation,
+  & .citation p {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
 }
 
 .color-gray-light {
