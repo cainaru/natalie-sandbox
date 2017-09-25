@@ -1,0 +1,14 @@
+uuid: 278f131e-40ec-41a4-9e6f-00a2a007323e
+langcode: en
+status: true
+dependencies: {  }
+name: small_screen_700x394_
+label: 'Small Screen (700x394)'
+effects:
+  5f5131ca-e1a8-4092-ae85-c5780268efae:
+    uuid: 5f5131ca-e1a8-4092-ae85-c5780268efae
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 700
+      height: 394

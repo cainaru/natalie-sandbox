@@ -600,7 +600,7 @@ display:
         operator: AND
         groups:
           1: AND
-      css_class: 'content-container clearfix'
+      css_class: clearfix
       fields:
         field_banner_media_1:
           id: field_banner_media_1
@@ -653,7 +653,7 @@ display:
           click_sort_column: target_id
           type: entity_reference_entity_view
           settings:
-            view_mode: banner_media_image
+            view_mode: banner_media_image_not_full_width
           group_column: target_id
           group_columns: {  }
           group_rows: true
