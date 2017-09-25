@@ -259,7 +259,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"container-fluid\">\n<figcaption class=\"caption\">\n<span class=\"caption-text\"><span class=\"visually-hidden\">Caption</span>{{ field_banner_media_caption }}</span>\n<span class=\"citation\"><span class=\"visually-hidden\">Credit</span>{{ field_banner_media_citation }}</span>\n</figcaption>\n</div>"
+            text: "<div class=\"container-fluid\">\n<figcaption class=\"banner-media-caption caption\">\n<span class=\"caption-text\"><span class=\"visually-hidden\">Caption</span>{{ field_banner_media_caption }}</span>\n<span class=\"citation\"><span class=\"visually-hidden\">Credit</span>{{ field_banner_media_citation }}</span>\n</figcaption>\n</div>"
             make_link: false
             path: ''
             absolute: false
