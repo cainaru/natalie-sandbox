@@ -5,3 +5,7 @@
 .content-container {
   @include content-max-width($screen-sm-min, $content-max-width);
 }
+
+.banner-media-content-container {
+  @include content-max-width($screen-sm-min, 70rem);
+}

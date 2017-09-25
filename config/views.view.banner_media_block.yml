@@ -600,7 +600,7 @@ display:
         operator: AND
         groups:
           1: AND
-      css_class: clearfix
+      css_class: banner-media-content-container clearfix
       fields:
         field_banner_media_1:
           id: field_banner_media_1

@@ -260,6 +260,13 @@ input[type="button"].btn-block {
     margin-left: auto;
     margin-right: auto; } }
 
+@media (min-width: 768px) {
+  .banner-media-content-container {
+    max-width: 70rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; } }
+
 @font-face {
   font-family: "Source-Sans-Pro";
   font-weight: 300;
