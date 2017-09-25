@@ -13,7 +13,7 @@ id: node.narrative.field_elements
 field_name: field_elements
 entity_type: node
 bundle: narrative
-label: Elements
+label: 'Main Content'
 description: ''
 required: false
 translatable: false
@@ -38,5 +38,8 @@ settings:
         enabled: false
       column:
         weight: -6
+        enabled: false
+      banner_media:
+        weight: 6
         enabled: false
 field_type: entity_reference_revisions

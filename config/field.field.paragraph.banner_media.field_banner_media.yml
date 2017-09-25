@@ -10,7 +10,7 @@ id: paragraph.banner_media.field_banner_media
 field_name: field_banner_media
 entity_type: paragraph
 bundle: banner_media
-label: 'Banner Media'
+label: Media
 description: ''
 required: false
 translatable: false
