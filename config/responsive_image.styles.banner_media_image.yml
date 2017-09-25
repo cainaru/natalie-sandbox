@@ -9,7 +9,7 @@ dependencies:
     - image.style.small_screen_768x432_
     - image.style.thumbnail
 id: banner_media_image
-label: 'Banner Media Image'
+label: 'Banner Media Image Full-width'
 image_style_mappings:
   -
     breakpoint_id: responsive_image.viewport_sizing

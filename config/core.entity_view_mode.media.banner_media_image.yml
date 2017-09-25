@@ -5,6 +5,6 @@ dependencies:
   module:
     - media_entity
 id: media.banner_media_image
-label: 'Banner Media Image'
+label: 'Banner Media Image Full-width'
 targetEntityType: media
 cache: true
