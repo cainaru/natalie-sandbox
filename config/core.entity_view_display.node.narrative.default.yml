@@ -4,9 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.narrative.body
-    - field.field.node.narrative.field_banner_media
-    - field.field.node.narrative.field_banner_media_caption
-    - field.field.node.narrative.field_banner_media_citation
     - field.field.node.narrative.field_banner_media_element
     - field.field.node.narrative.field_elements
     - node.type.narrative
@@ -41,7 +38,4 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_banner_media: true
-  field_banner_media_caption: true
-  field_banner_media_citation: true
   field_banner_media_element: true
