@@ -1,0 +1,21 @@
+uuid: 1ae11873-18e1-4c58-951c-0375b5641239
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_banner_media_caption
+    - paragraphs.paragraphs_type.banner_media
+  module:
+    - text
+id: paragraph.banner_media.field_banner_media_caption
+field_name: field_banner_media_caption
+entity_type: paragraph
+bundle: banner_media
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

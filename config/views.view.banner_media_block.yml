@@ -3,12 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_banner_media
-    - field.storage.node.field_banner_media_caption
-    - field.storage.node.field_banner_media_citation
+    - field.storage.paragraph.field_banner_media
+    - field.storage.paragraph.field_banner_media_caption
+    - field.storage.paragraph.field_banner_media_credit
     - node.type.narrative
   module:
     - node
+    - paragraphs
     - text
     - user
 id: banner_media_block
@@ -61,11 +62,11 @@ display:
       row:
         type: fields
       fields:
-        field_banner_media:
-          id: field_banner_media
-          table: node__field_banner_media
+        field_banner_media_1:
+          id: field_banner_media_1
+          table: paragraph__field_banner_media
           field: field_banner_media
-          relationship: none
+          relationship: field_banner_media_element
           group_type: group
           admin_label: ''
           label: ''
@@ -124,11 +125,11 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_banner_media_caption:
-          id: field_banner_media_caption
-          table: node__field_banner_media_caption
+        field_banner_media_caption_1:
+          id: field_banner_media_caption_1
+          table: paragraph__field_banner_media_caption
           field: field_banner_media_caption
-          relationship: none
+          relationship: field_banner_media_element
           group_type: group
           admin_label: ''
           label: ''
@@ -186,11 +187,11 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_banner_media_citation:
-          id: field_banner_media_citation
-          table: node__field_banner_media_citation
-          field: field_banner_media_citation
-          relationship: none
+        field_banner_media_credit:
+          id: field_banner_media_credit
+          table: paragraph__field_banner_media_credit
+          field: field_banner_media_credit
+          relationship: field_banner_media_element
           group_type: group
           admin_label: ''
           label: ''
@@ -259,7 +260,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"container-fluid\">\n<figcaption class=\"banner-media-caption caption\">\n<span class=\"caption-text\"><span class=\"visually-hidden\">Caption</span>{{ field_banner_media_caption }}</span>\n<span class=\"citation\"><span class=\"visually-hidden\">Credit</span>{{ field_banner_media_citation }}</span>\n</figcaption>\n</div>"
+            text: "<div class=\"container-fluid\">\n<figcaption class=\"banner-media-caption caption\">\n<span class=\"caption-text\"><span class=\"visually-hidden\">Caption</span>{{ field_banner_media_caption_1 }}</span>\n<span class=\"citation\"><span class=\"visually-hidden\">Credit</span>{{ field_banner_media_credit }}</span>\n</figcaption>\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -323,7 +324,16 @@ display:
       header: {  }
       footer: {  }
       empty: {  }
-      relationships: {  }
+      relationships:
+        field_banner_media_element:
+          id: field_banner_media_element
+          table: node__field_banner_media_element
+          field: field_banner_media_element
+          relationship: none
+          group_type: group
+          admin_label: 'field_banner_media_element: Paragraph'
+          required: false
+          plugin_id: standard
       arguments:
         nid:
           id: nid
@@ -372,9 +382,9 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_banner_media'
-        - 'config:field.storage.node.field_banner_media_caption'
-        - 'config:field.storage.node.field_banner_media_citation'
+        - 'config:field.storage.paragraph.field_banner_media'
+        - 'config:field.storage.paragraph.field_banner_media_caption'
+        - 'config:field.storage.paragraph.field_banner_media_credit'
   block_1:
     display_plugin: block
     id: block_1
@@ -391,6 +401,6 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_banner_media'
-        - 'config:field.storage.node.field_banner_media_caption'
-        - 'config:field.storage.node.field_banner_media_citation'
+        - 'config:field.storage.paragraph.field_banner_media'
+        - 'config:field.storage.paragraph.field_banner_media_caption'
+        - 'config:field.storage.paragraph.field_banner_media_credit'

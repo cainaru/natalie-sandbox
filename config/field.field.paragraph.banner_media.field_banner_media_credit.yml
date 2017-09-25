@@ -1,0 +1,21 @@
+uuid: 4e1cb48b-a28f-4009-ab4c-d131527c3e97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_banner_media_credit
+    - paragraphs.paragraphs_type.banner_media
+  module:
+    - text
+id: paragraph.banner_media.field_banner_media_credit
+field_name: field_banner_media_credit
+entity_type: paragraph
+bundle: banner_media
+label: Credit/Citation
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

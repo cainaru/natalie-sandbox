@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.narrative.field_banner_media
     - field.field.node.narrative.field_banner_media_caption
     - field.field.node.narrative.field_banner_media_citation
+    - field.field.node.narrative.field_banner_media_element
     - field.field.node.narrative.field_elements
     - node.type.narrative
   module:
@@ -43,3 +44,4 @@ hidden:
   field_banner_media: true
   field_banner_media_caption: true
   field_banner_media_citation: true
+  field_banner_media_element: true
