@@ -6,8 +6,10 @@ dependencies:
     - field.field.paragraph.banner_media.field_banner_media
     - field.field.paragraph.banner_media.field_banner_media_caption
     - field.field.paragraph.banner_media.field_banner_media_credit
+    - field.field.paragraph.banner_media.field_display_options
     - paragraphs.paragraphs_type.banner_media
   module:
+    - options
     - text
 id: paragraph.banner_media.default
 targetEntityType: paragraph
@@ -36,5 +38,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_display_options:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
     region: content
 hidden: {  }
