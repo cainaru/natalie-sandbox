@@ -11,7 +11,7 @@ _core:
 id: university_bootstrap_breadcrumbs
 theme: university_bootstrap
 region: header
-weight: -6
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:

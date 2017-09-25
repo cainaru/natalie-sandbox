@@ -661,6 +661,12 @@ figure[role=group] {
     caption-side: bottom;
     max-width: none; }
 
+figcaption.banner-media-caption.caption {
+  display: block;
+  text-align: right; }
+  figcaption.banner-media-caption.caption span {
+    display: inline-block; }
+
 .color-gray-light {
   background-color: #f2f2f2; }
 

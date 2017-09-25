@@ -40,6 +40,15 @@ figure[role=group] {
   }
 }
 
+figcaption.banner-media-caption.caption {
+  display: block;
+  text-align: right;
+
+  & span {
+    display: inline-block;
+  }
+}
+
 .color-gray-light {
   background-color: $color-gray-light;
 }

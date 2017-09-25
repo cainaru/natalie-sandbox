@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.narrative.body
     - field.field.node.narrative.field_banner_media
+    - field.field.node.narrative.field_banner_media_caption
+    - field.field.node.narrative.field_banner_media_citation
     - field.field.node.narrative.field_elements
     - node.type.narrative
   module:
@@ -19,22 +21,13 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 2
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_banner_media:
-    weight: 1
-    label: hidden
-    settings:
-      view_mode: banner_media_image
-      link: false
-    third_party_settings: {  }
-    type: entity_reference_entity_view
-    region: content
   field_elements:
     type: entity_reference_revisions_entity_view
-    weight: 3
+    weight: 2
     label: hidden
     settings:
       view_mode: default
@@ -46,4 +39,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_banner_media: true
+  field_banner_media_caption: true
+  field_banner_media_citation: true
