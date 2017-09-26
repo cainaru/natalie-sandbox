@@ -18,8 +18,9 @@
 #}
 
 {% if title %}
-  <h1{{ title_attributes.addClass('page-header') }}>{{ title }}</h1>
-  {% if node.getType == 'narrative' %}
-    Display some text here
-  {% endif %}
+  <div class="page-header-wrapper">
+    <div class="page-header-content-container">
+      <h1{{ title_attributes.addClass('page-header') }}>{{ title }}</h1>
+    </div>
+  </div>
 {% endif %}
