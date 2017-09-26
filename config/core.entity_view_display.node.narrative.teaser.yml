@@ -5,6 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.narrative.body
+    - field.field.node.narrative.field_banner_media_element
+    - field.field.node.narrative.field_elements
+    - field.field.node.narrative.field_subtitle
     - node.type.narrative
   module:
     - text
@@ -25,5 +28,9 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  field_banner_media_element: true
   field_elements: true
+  field_subtitle: true

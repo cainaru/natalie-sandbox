@@ -1,22 +1,22 @@
-uuid: 97cb74ab-7ddf-4a1c-81bd-d18797f64d17
+uuid: 32ec6a8b-6366-46b5-9401-689fac06714e
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.banner_media_block
+    - views.view.subtitle_block
   module:
     - ctools
     - views
   theme:
     - university_bootstrap
-id: views_block__banner_media_block_block_1
+id: views_block__subtitle_block_block_1
 theme: university_bootstrap
 region: header
-weight: -5
+weight: -3
 provider: null
-plugin: 'views_block:banner_media_block-block_1'
+plugin: 'views_block:subtitle_block-block_1'
 settings:
-  id: 'views_block:banner_media_block-block_1'
+  id: 'views_block:subtitle_block-block_1'
   label: ''
   provider: views
   label_display: '0'
@@ -27,7 +27,9 @@ visibility:
   'entity_bundle:node':
     id: 'entity_bundle:node'
     bundles:
+      article: article
       narrative: narrative
+      page: page
     negate: false
     context_mapping:
       node: '@node.node_route_context:node'

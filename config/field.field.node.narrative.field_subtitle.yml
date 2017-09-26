@@ -1,0 +1,21 @@
+uuid: d90ede6d-b92b-44d2-9295-a4df3aaaf7d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subtitle
+    - node.type.narrative
+  module:
+    - text
+id: node.narrative.field_subtitle
+field_name: field_subtitle
+entity_type: node
+bundle: narrative
+label: Subtitle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

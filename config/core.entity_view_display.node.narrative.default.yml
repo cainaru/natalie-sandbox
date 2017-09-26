@@ -6,26 +6,19 @@ dependencies:
     - field.field.node.narrative.body
     - field.field.node.narrative.field_banner_media_element
     - field.field.node.narrative.field_elements
+    - field.field.node.narrative.field_subtitle
     - node.type.narrative
   module:
     - entity_reference_revisions
-    - text
     - user
 id: node.narrative.default
 targetEntityType: node
 bundle: narrative
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 1
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   field_elements:
     type: entity_reference_revisions_entity_view
-    weight: 2
+    weight: 1
     label: hidden
     settings:
       view_mode: default
@@ -38,4 +31,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  body: true
   field_banner_media_element: true
+  field_subtitle: true
