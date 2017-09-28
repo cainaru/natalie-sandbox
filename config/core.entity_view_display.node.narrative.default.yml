@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.narrative.body
     - field.field.node.narrative.field_banner_media_element
-    - field.field.node.narrative.field_elements
     - field.field.node.narrative.field_elements_2_0
     - field.field.node.narrative.field_subtitle
     - node.type.narrative
@@ -17,15 +16,6 @@ targetEntityType: node
 bundle: narrative
 mode: default
 content:
-  field_elements:
-    type: entity_reference_revisions_entity_view
-    weight: 1
-    label: hidden
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    region: content
   field_elements_2_0:
     type: entity_reference_revisions_entity_view
     weight: 2
