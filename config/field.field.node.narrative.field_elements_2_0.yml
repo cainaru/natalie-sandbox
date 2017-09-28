@@ -1,0 +1,57 @@
+uuid: aa6f6d53-27f9-40cf-9466-2112dd881a2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_elements_2_0
+    - node.type.narrative
+    - paragraphs.paragraphs_type.breakout_2_0
+    - paragraphs.paragraphs_type.text_2_0
+  module:
+    - entity_reference_revisions
+id: node.narrative.field_elements_2_0
+field_name: field_elements_2_0
+entity_type: node
+bundle: narrative
+label: 'Elements 2 0'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      text_2_0: text_2_0
+      breakout_2_0: breakout_2_0
+    target_bundles_drag_drop:
+      text_2_0:
+        enabled: true
+        weight: -19
+      breakout_2_0:
+        enabled: true
+        weight: -18
+      banner_media:
+        weight: -17
+        enabled: false
+      breakout:
+        weight: -16
+        enabled: false
+      column:
+        weight: -15
+        enabled: false
+      column_2_0:
+        weight: -14
+        enabled: false
+      row:
+        weight: -13
+        enabled: false
+      row_2_0:
+        weight: -12
+        enabled: false
+      text:
+        weight: -11
+        enabled: false
+field_type: entity_reference_revisions

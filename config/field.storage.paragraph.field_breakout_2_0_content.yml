@@ -1,0 +1,20 @@
+uuid: a7f4c9ae-6fa4-4521-b6bb-61dcd6ac7f99
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+id: paragraph.field_breakout_2_0_content
+field_name: field_breakout_2_0_content
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

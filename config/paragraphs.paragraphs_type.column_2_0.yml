@@ -1,0 +1,9 @@
+uuid: 963f0c36-7a9c-455b-8cfd-64bc1c82c394
+langcode: en
+status: true
+dependencies: {  }
+id: column_2_0
+label: 'Column 2 0'
+icon_uuid: null
+description: 'Column paragraph.'
+behavior_plugins: {  }
