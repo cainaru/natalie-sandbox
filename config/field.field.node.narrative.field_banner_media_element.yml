@@ -28,7 +28,7 @@ settings:
       banner_media:
         enabled: true
         weight: 6
-      breakout:
+      breakout_2_0:
         weight: 7
         enabled: false
       column:
