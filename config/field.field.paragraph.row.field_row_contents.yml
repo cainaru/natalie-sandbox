@@ -31,7 +31,7 @@ settings:
       column:
         enabled: true
         weight: 5
-      breakout:
+      breakout_2_0:
         weight: 5
         enabled: false
       text:
