@@ -4,14 +4,14 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_breakout_content
-    - paragraphs.paragraphs_type.breakout_2_0
+    - paragraphs.paragraphs_type.breakout
     - paragraphs.paragraphs_type.row
   module:
     - entity_reference_revisions
-id: paragraph.breakout_2_0.field_breakout_content
+id: paragraph.breakout.field_breakout_content
 field_name: field_breakout_content
 entity_type: paragraph
-bundle: breakout_2_0
+bundle: breakout
 label: Rows
 description: ''
 required: false

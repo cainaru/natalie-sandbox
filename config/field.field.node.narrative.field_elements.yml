@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_elements
     - node.type.narrative
-    - paragraphs.paragraphs_type.breakout_2_0
+    - paragraphs.paragraphs_type.breakout
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
@@ -25,7 +25,7 @@ settings:
     negate: 0
     target_bundles:
       text: text
-      breakout_2_0: breakout_2_0
+      breakout: breakout
     target_bundles_drag_drop:
       text:
         enabled: true

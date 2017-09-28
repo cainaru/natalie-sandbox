@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.breakout_2_0.field_breakout_content
-    - paragraphs.paragraphs_type.breakout_2_0
+    - field.field.paragraph.breakout.field_breakout_content
+    - paragraphs.paragraphs_type.breakout
   module:
     - entity_reference_revisions
-id: paragraph.breakout_2_0.default
+id: paragraph.breakout.default
 targetEntityType: paragraph
-bundle: breakout_2_0
+bundle: breakout
 mode: default
 content:
   field_breakout_content:
