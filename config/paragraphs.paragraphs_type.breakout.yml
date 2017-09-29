@@ -1,9 +1,0 @@
-uuid: b722fb65-c8c0-4ae6-9dd5-dcf6b3bd315f
-langcode: en
-status: true
-dependencies: {  }
-id: breakout
-label: 'Breakout Section'
-icon_uuid: null
-description: 'Breakout section paragraph.'
-behavior_plugins: {  }

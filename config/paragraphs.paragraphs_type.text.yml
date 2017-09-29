@@ -1,9 +1,0 @@
-uuid: 0f46eef9-e3f8-4065-9cf2-8c543906f842
-langcode: en
-status: true
-dependencies: {  }
-id: text
-label: Text
-icon_uuid: null
-description: 'Text paragraph.'
-behavior_plugins: {  }

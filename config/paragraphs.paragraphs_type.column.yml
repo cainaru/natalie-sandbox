@@ -1,9 +1,0 @@
-uuid: 324b3496-9dc3-4de7-a882-0b37d7c0968c
-langcode: en
-status: true
-dependencies: {  }
-id: column
-label: Column
-icon_uuid: null
-description: 'Column paragraph.'
-behavior_plugins: {  }
