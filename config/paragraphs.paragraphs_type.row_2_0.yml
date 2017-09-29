@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: row_2_0
-label: 'Row 2 0'
+label: Row
 icon_uuid: null
 description: 'Row paragraph.'
 behavior_plugins: {  }

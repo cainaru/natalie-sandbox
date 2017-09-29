@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: breakout_2_0
-label: 'Breakout 2 0'
+label: 'Breakout Section'
 icon_uuid: null
 description: 'Breakout section paragraph.'
 behavior_plugins: {  }
