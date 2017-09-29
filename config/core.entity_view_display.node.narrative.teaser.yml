@@ -6,7 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.narrative.body
     - field.field.node.narrative.field_banner_media_element
-    - field.field.node.narrative.field_elements
+    - field.field.node.narrative.field_elements_2_0
     - field.field.node.narrative.field_subtitle
     - node.type.narrative
   module:
@@ -32,5 +32,5 @@ content:
     third_party_settings: {  }
 hidden:
   field_banner_media_element: true
-  field_elements: true
+  field_elements_2_0: true
   field_subtitle: true

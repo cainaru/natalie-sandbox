@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: column_2_0
-label: 'Column 2 0'
+label: Column
 icon_uuid: null
 description: 'Column paragraph.'
 behavior_plugins: {  }

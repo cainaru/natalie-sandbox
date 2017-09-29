@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: text_2_0
-label: 'Text 2 0'
+label: Text
 icon_uuid: null
 description: 'Text paragraph.'
 behavior_plugins: {  }
