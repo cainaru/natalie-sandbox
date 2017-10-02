@@ -1,0 +1,19 @@
+uuid: 7e8bd922-23e5-4765-97a1-4a13cf479c7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_css_class
+    - taxonomy.vocabulary.background_foreground_colors
+id: taxonomy_term.background_foreground_colors.field_css_class
+field_name: field_css_class
+entity_type: taxonomy_term
+bundle: background_foreground_colors
+label: 'CSS Class'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
