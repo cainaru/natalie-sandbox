@@ -1,0 +1,9 @@
+uuid: 1cedd32b-733b-4b2d-9e0c-3a8f84866ece
+langcode: en
+status: true
+dependencies: {  }
+name: 'Background-Foreground Colors'
+vid: background_foreground_colors
+description: 'Use background-foreground colors to serve as options to modify an item''s background-foreground color.'
+hierarchy: 0
+weight: 0

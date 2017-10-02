@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.breakout_2_0.field_background_foreground
     - field.field.paragraph.breakout_2_0.field_breakout_2_0_content
     - paragraphs.paragraphs_type.breakout_2_0
   module:
@@ -21,4 +22,5 @@ content:
       link: ''
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_background_foreground: true

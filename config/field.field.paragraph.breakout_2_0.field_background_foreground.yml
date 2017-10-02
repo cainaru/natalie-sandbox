@@ -1,0 +1,28 @@
+uuid: b3d5f3d2-e08a-4a1b-916a-44392e581d43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_foreground
+    - paragraphs.paragraphs_type.breakout_2_0
+    - taxonomy.vocabulary.background_foreground_colors
+id: paragraph.breakout_2_0.field_background_foreground
+field_name: field_background_foreground
+entity_type: paragraph
+bundle: breakout_2_0
+label: Color
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      background_foreground_colors: background_foreground_colors
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
