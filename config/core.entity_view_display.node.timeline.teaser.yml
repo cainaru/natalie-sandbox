@@ -1,0 +1,37 @@
+uuid: 3a28df0d-ac01-4b0e-8cad-0ed98e62bc5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.timeline.body
+    - field.field.node.timeline.field_add_slide
+    - field.field.node.timeline.field_byline
+    - node.type.timeline
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: LbQgvJz_roiQG9Bbm21mVxineBgINJ4vMpmGuwmLiKo
+id: node.timeline.teaser
+targetEntityType: node
+bundle: timeline
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+  timeline_maker_entity_view_1:
+    weight: 10
+    region: content
+hidden:
+  field_add_slide: true
+  field_byline: true
