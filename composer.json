@@ -14,6 +14,7 @@
     "cweagans/composer-patches": "^1.0",
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "drupal/bootstrap": "^3.5",
+    "drupal/color_field": "^1.0",
     "drupal/config_direct_save": "^1.0",
     "drupal/config_installer": "^1.0",
     "drupal/console": "^1.0.0-rc8",
@@ -30,6 +31,8 @@
     "drupal/media_entity_image": "^1.2",
     "drupal/paragraphs": "^1.2",
     "drupal/simple_block": "^1.0@beta",
+    "drupal/video_embed_field": "^1.5",
+    "drupal/views_timelinejs": "^3.0",
     "drush/drush": "~8",
     "rvtraveller/qs-composer-installer": "^1.1",
     "webflo/drupal-core-strict": "^8"
