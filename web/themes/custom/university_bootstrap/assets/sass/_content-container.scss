@@ -9,3 +9,7 @@
 .banner-media-content-container {
   @include content-max-width($screen-sm-min, 70rem);
 }
+
+.page-header-content-container {
+  @include content-max-width($screen-sm-min, 70rem);
+}
