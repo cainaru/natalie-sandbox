@@ -1,0 +1,103 @@
+uuid: 0be6cee3-e146-4a39-8988-7ba63240ab1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.location_reference.body
+    - field.field.node.location_reference.field_geolocation
+    - field.field.node.location_reference.field_location_type
+    - node.type.location_reference
+  module:
+    - geolocation
+    - path
+    - text
+_core:
+  default_config_hash: xL-2Nw6GLRo83JfsI90cm-uS49641_KWjFiFom3NnV8
+id: node.location_reference.default
+targetEntityType: node
+bundle: location_reference
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 31
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_geolocation:
+    weight: 32
+    settings:
+      default_longitude: '-74.9'
+      default_latitude: '44.4'
+      google_map_settings:
+        type: ROADMAP
+        zoom: '2'
+        mapTypeControl: 1
+        streetViewControl: 1
+        zoomControl: 1
+        scrollwheel: 1
+        gestureHandling: auto
+        draggable: 1
+        preferScrollingToZooming: 1
+        style: ''
+        height: 400px
+        width: 100%
+        info_auto_display: 1
+        disableAutoPan: 1
+        disableDoubleClickZoom: 0
+      auto_client_location: '0'
+      auto_client_location_marker: '0'
+      allow_override_map_settings: 0
+      populate_address_field: ''
+      target_address_field: null
+    third_party_settings: {  }
+    type: geolocation_googlegeocoder
+    region: content
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+    region: content
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_location_type: true
