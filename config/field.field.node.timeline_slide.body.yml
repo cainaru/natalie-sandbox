@@ -1,0 +1,24 @@
+uuid: ad13df26-5e14-42d3-8421-b122e5f1aae3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.timeline_slide
+  module:
+    - text
+_core:
+  default_config_hash: 26Cf_tEJSG4Y8lQC83ZMfQTp2fv0c_xbov5diS5waI0
+id: node.timeline_slide.body
+field_name: body
+entity_type: node
+bundle: timeline_slide
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
