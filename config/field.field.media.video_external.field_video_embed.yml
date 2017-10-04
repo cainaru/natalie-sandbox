@@ -1,0 +1,27 @@
+uuid: 4a071856-f847-45c6-8c30-0d0fd8b39e70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_video_embed
+    - media_entity.bundle.video_external
+  module:
+    - video_embed_field
+_core:
+  default_config_hash: FVSBdcz8CrDXtO9Vv2fUhQFBOkTmTEQx46BDhd4kyxA
+id: media.video_external.field_video_embed
+field_name: field_video_embed
+entity_type: media
+bundle: video_external
+label: 'Video URL'
+description: 'The URL of the video from Vimeo or Youtube.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube_playlist: youtube_playlist
+    youtube: youtube
+    vimeo: vimeo
+field_type: video_embed_field

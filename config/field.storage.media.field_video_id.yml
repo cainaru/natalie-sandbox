@@ -1,0 +1,23 @@
+uuid: f8a55521-9fa0-48d3-891f-1e5e5ab5ffeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: VsNI5w6j5yTCpiX9BkDzWsbEv-t4XtQH8k4ZinqOsdE
+id: media.field_video_id
+field_name: field_video_id
+entity_type: media
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

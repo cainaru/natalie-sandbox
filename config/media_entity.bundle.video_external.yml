@@ -1,0 +1,22 @@
+uuid: 268a3cd3-ba9f-4b86-a349-ba09ef38a19a
+langcode: en
+status: true
+dependencies:
+  module:
+    - video_embed_media
+_core:
+  default_config_hash: _PppxSZSCsIri5re3j9jlH7G-U9N4QHRDblB3nW3lqQ
+id: video_external
+label: 'Video - External'
+description: ''
+type: video_embed_field
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: field_video_embed
+field_map:
+  id: field_video_id
+  source: field_video_source_machine_name
+  source_name: field_video_source_human_name
+  image_local: thumbnail
+  image_local_uri: field_video_image_data

@@ -1,0 +1,21 @@
+uuid: e8a6d469-ee0a-4578-a665-779e2cee0ab0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_video_source_human_name
+    - media_entity.bundle.video_external
+_core:
+  default_config_hash: 1n0DDN_5eo3voxMwGHF3b4oU8mJxiUfL9T1QLOdOf0Q
+id: media.video_external.field_video_source_human_name
+field_name: field_video_source_human_name
+entity_type: media
+bundle: video_external
+label: 'Video source human name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
