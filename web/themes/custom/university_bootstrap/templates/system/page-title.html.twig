@@ -23,7 +23,7 @@
       <h1{{ title_attributes.addClass('page-header') }}>{{ title }}</h1>
       {% if subtitle %}
         <div class="subtitle">
-          {{ subtitle }}
+          {{ subtitle|raw }}
         </div>
       {% endif %}
     </div>
