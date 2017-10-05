@@ -32,7 +32,7 @@ function university_bootstrap_preprocess_page(&$variables) {
 function university_bootstrap_preprocess_page_title(&$variables) {
   if($node = \Drupal::routeMatch()->getParameter('node')) {
 
-    if ($subtitle_present = (!empty($node->field_subtitle)) {
+    if (!empty($node->field_subtitle)) {
       $variables['subtitle'] = $node->get('field_subtitle')->getValue()[0]['value'];
     }
 
