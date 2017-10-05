@@ -4,12 +4,19 @@
 
 .content-container {
   @include content-max-width($screen-sm-min, $content-max-width);
+  @include center-block();
 }
 
-.banner-media-content-container {
+.page-node-type-narrative .banner-media-content-container {
   @include content-max-width($screen-sm-min, 70rem);
+  @include center-block();
 }
 
-.page-header-content-container {
+.page-node-type-narrative .page-header-content-container {
+  @include content-max-width($screen-sm-min, 70rem);
+  @include center-block();
+}
+
+.page-node-type-page .page-header-content-container {
   @include content-max-width($screen-sm-min, 70rem);
 }
