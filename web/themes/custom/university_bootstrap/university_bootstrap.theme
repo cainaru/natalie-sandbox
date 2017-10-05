@@ -31,7 +31,7 @@ function university_bootstrap_preprocess_page(&$variables) {
  */
 function university_bootstrap_preprocess_page_title(&$variables) {
   if($node = \Drupal::routeMatch()->getParameter('node')) {
-    
+
     $featured_media_present = (!empty($node->field_banner_media_element->entity->field_banner_media->entity->field_image->entity));
     if ($node->getType() == 'narrative' && $featured_media_present) {
       $featured_media_display = $node->get('field_banner_media_element')->entity->get('field_display_options')->getValue()[0]['value'];
@@ -46,8 +46,6 @@ function university_bootstrap_preprocess_page_title(&$variables) {
 
     if ($node->field_subtitle) {
       $variables['subtitle'] = $node->get('field_subtitle')->getValue()[0]['value'];
-    } else {
-      $variables['subtitle'] = "empty";
-    }
+    } 
   }
 }
