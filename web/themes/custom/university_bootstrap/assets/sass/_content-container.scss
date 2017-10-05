@@ -12,8 +12,13 @@
   @include center-block();
 }
 
-.page-node-type-narrative .page-header-content-container {
+.page-header-content-container.not-full-width {
   @include content-max-width($screen-sm-min, 70rem);
+  @include center-block();
+}
+
+.page-header-content-container.full-width {
+  @include content-max-width($screen-sm-min, $content-max-width);
   @include center-block();
 }
 

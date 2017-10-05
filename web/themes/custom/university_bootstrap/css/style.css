@@ -269,13 +269,21 @@ input[type="button"].btn-block {
     .page-node-type-narrative .banner-media-content-container {
       max-width: 70rem; } }
 
-.page-node-type-narrative .page-header-content-container {
+.page-header-content-container.not-full-width {
   display: block;
   margin-left: auto;
   margin-right: auto; }
   @media (min-width: 768px) {
-    .page-node-type-narrative .page-header-content-container {
+    .page-header-content-container.not-full-width {
       max-width: 70rem; } }
+
+.page-header-content-container.full-width {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 768px) {
+    .page-header-content-container.full-width {
+      max-width: 65em; } }
 
 @media (min-width: 768px) {
   .page-node-type-page .page-header-content-container {
