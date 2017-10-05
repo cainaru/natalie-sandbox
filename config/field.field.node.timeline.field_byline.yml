@@ -1,0 +1,23 @@
+uuid: 75762576-9c10-4231-85e3-15cec0ba1b03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_byline
+    - node.type.timeline
+  module:
+    - text
+_core:
+  default_config_hash: nLEuSiLKLky0EaSnx1OGmsuuR7M0wmF1fbGDUWphOvM
+id: node.timeline.field_byline
+field_name: field_byline
+entity_type: node
+bundle: timeline
+label: Byline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

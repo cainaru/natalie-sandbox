@@ -1,0 +1,32 @@
+uuid: 40d6d9b7-4566-4a5b-aa0f-2949501b4989
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.location_type.field_marker_image
+    - taxonomy.vocabulary.location_type
+  module:
+    - image
+    - text
+id: taxonomy_term.location_type.default
+targetEntityType: taxonomy_term
+bundle: location_type
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_marker_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

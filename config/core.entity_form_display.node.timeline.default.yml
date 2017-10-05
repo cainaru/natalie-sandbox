@@ -1,0 +1,97 @@
+uuid: 7dd818f7-8c4f-402c-a552-ce002bb0977d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.timeline.body
+    - field.field.node.timeline.field_add_slide
+    - field.field.node.timeline.field_byline
+    - node.type.timeline
+  module:
+    - entity_browser_entity_form
+    - inline_entity_form
+    - path
+    - text
+_core:
+  default_config_hash: W_m0QU7mNyjhvywBmsyRi1HUB2C9pxuZKO542rVX4m4
+id: node.timeline.default
+targetEntityType: node
+bundle: timeline
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 7
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_slide:
+    weight: 8
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: Slide
+      label_plural: Slides
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: timeline_slide_connector
+    type: inline_entity_form_complex
+    region: content
+  field_byline:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  path:
+    type: path
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    third_party_settings: {  }
+    region: content
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

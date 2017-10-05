@@ -1,0 +1,21 @@
+uuid: ca77cd37-965b-4674-a240-cdc7e2240d40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_video_image_data
+    - media_entity.bundle.video_external
+_core:
+  default_config_hash: uqSopU88Ii0O97_3WBdOom7sKcOT0jNYqt-SooIzOsg
+id: media.video_external.field_video_image_data
+field_name: field_video_image_data
+entity_type: media
+bundle: video_external
+label: 'Video image data'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
