@@ -25,3 +25,23 @@ function university_bootstrap_preprocess_page(&$variables) {
     $variables['template_type'] = "content-container";
   }
 }
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function university_bootstrap_preprocess_page_title(&$variables) {
+  if($node = \Drupal::routeMatch()->getParameter('node')) {
+
+    $featured_media_present = (!empty($node->field_banner_media_element->entity->field_banner_media->entity->field_image->entity));
+    if ($node->getType() == 'narrative' && $featured_media_present) {
+      $featured_media_display = $node->get('field_banner_media_element')->entity->get('field_display_options')->getValue()[0]['value'];
+      switch ($featured_media_display) {
+        case "1":
+          $variables['featured_media_display_option'] = "full-width";
+          break;
+        case "2":
+          $variables['featured_media_display_option'] = "not-full-width";
+      }
+    }
+  }
+}
