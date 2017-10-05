@@ -2,7 +2,7 @@
 //
 // Max-width for content when viewed on a designated screen.
 
-.content-container {
+.main-container.content-container {
   @include content-max-width($screen-sm-min, $content-max-width);
   @include center-block();
 }
