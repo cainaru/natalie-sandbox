@@ -7,17 +7,13 @@
   @include center-block();
 }
 
-.page-node-type-narrative .banner-media-content-container {
+.page-node-type-narrative .page-header-content-container.not-full-width,
+.page-node-type-narrative .banner-media-not-full-width {
   @include content-max-width($screen-sm-min, 70rem);
   @include center-block();
 }
 
-.page-header-content-container.not-full-width {
-  @include content-max-width($screen-sm-min, 70rem);
-  @include center-block();
-}
-
-.page-header-content-container.full-width {
+.page-node-type-narrative .page-header-content-container.full-width {
   @include content-max-width($screen-sm-min, $content-max-width);
   @include center-block();
 }
