@@ -643,6 +643,8 @@ h6 {
   font-size: 2rem;
   font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
   line-height: 1.7; }
+  .subtitle p {
+    max-width: 100%; }
 
 .block-title {
   margin-top: 0; }

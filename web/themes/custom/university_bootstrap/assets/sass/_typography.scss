@@ -114,6 +114,9 @@ h6 {
   font-size: $lead-font-size;
   font-family: $font-family-serif;
   line-height: $lead-line-height;
+  p {
+    max-width: 100%;
+  }
 }
 
 .block-title {
