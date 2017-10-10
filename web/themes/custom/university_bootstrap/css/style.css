@@ -704,7 +704,7 @@ figcaption.banner-media-caption.caption {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding-bottom: 4rem;
+    padding: 0 3rem 9rem 3rem;
     margin-left: -15px;
     margin-right: -15px;
     z-index: 0;
