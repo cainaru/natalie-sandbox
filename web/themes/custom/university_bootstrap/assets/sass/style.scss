@@ -61,6 +61,18 @@ figcaption.banner-media-caption.caption {
   }
 }
 
+.page-header-wrapper.full-width {
+  @media (min-width: $screen-sm-min) {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 3rem;
+    margin-left: -15px;
+    margin-right: -15px;
+    z-index: 0;
+  }
+}
+
 .color-gray-light {
   background-color: $color-gray-light;
 }
