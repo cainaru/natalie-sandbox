@@ -10,9 +10,7 @@ dependencies:
     - field.field.node.timeline_slide.field_end_date
     - field.field.node.timeline_slide.field_geolocation_referenced
     - field.field.node.timeline_slide.field_media
-    - field.field.node.timeline_slide.field_media_caption
     - field.field.node.timeline_slide.field_media_caption_formatted
-    - field.field.node.timeline_slide.field_media_citation
     - field.field.node.timeline_slide.field_media_citation_formatted
     - field.field.node.timeline_slide.field_start_date
     - field.field.node.timeline_slide.field_timeline_item_bg_color
@@ -130,14 +128,6 @@ content:
     third_party_settings: {  }
     type: entity_browser_entity_reference
     region: content
-  field_media_caption:
-    weight: 15
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_media_caption_formatted:
     weight: 16
     settings:
@@ -145,14 +135,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
-    region: content
-  field_media_citation:
-    weight: 17
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
     region: content
   field_media_citation_formatted:
     weight: 18

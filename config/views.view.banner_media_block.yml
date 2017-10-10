@@ -606,7 +606,7 @@ display:
         operator: AND
         groups:
           1: AND
-      css_class: banner-media-not-full-width clearfix
+      css_class: 'banner-media-not-full-width clearfix'
       fields:
         field_banner_media_1:
           id: field_banner_media_1

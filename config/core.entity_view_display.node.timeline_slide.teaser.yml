@@ -10,9 +10,7 @@ dependencies:
     - field.field.node.timeline_slide.field_end_date
     - field.field.node.timeline_slide.field_geolocation_referenced
     - field.field.node.timeline_slide.field_media
-    - field.field.node.timeline_slide.field_media_caption
     - field.field.node.timeline_slide.field_media_caption_formatted
-    - field.field.node.timeline_slide.field_media_citation
     - field.field.node.timeline_slide.field_media_citation_formatted
     - field.field.node.timeline_slide.field_start_date
     - field.field.node.timeline_slide.field_timeline_item_bg_color
@@ -46,9 +44,7 @@ hidden:
   field_end_date: true
   field_geolocation_referenced: true
   field_media: true
-  field_media_caption: true
   field_media_caption_formatted: true
-  field_media_citation: true
   field_media_citation_formatted: true
   field_start_date: true
   field_timeline_item_bg_color: true
