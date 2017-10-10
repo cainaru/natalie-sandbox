@@ -2,14 +2,22 @@
 //
 // Max-width for content when viewed on a designated screen.
 
-.content-container {
+.main-container.content-container {
   @include content-max-width($screen-sm-min, $content-max-width);
+  @include center-block();
 }
 
-.banner-media-content-container {
+.page-node-type-narrative .page-header-wrapper.not-full-width .page-header-content-container,
+.page-node-type-narrative .banner-media-not-full-width {
   @include content-max-width($screen-sm-min, 70rem);
+  @include center-block();
 }
 
-.page-header-content-container {
+.page-node-type-narrative .page-header-wrapper.full-width .page-header-content-container {
+  @include content-max-width($screen-sm-min, $content-max-width);
+  @include center-block();
+}
+
+.page-node-type-page .page-header-content-container {
   @include content-max-width($screen-sm-min, 70rem);
 }

@@ -9,8 +9,8 @@ dependencies:
     - field.storage.node.field_display_date
     - field.storage.node.field_end_date
     - field.storage.node.field_media
-    - field.storage.node.field_media_caption
-    - field.storage.node.field_media_citation
+    - field.storage.node.field_media_caption_formatted
+    - field.storage.node.field_media_citation_formatted
     - field.storage.node.field_start_date
     - field.storage.node.field_timeline_item_bg_color
     - field.storage.node.field_type_of_slide
@@ -414,10 +414,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_media_caption:
-          id: field_media_caption
-          table: node__field_media_caption
-          field: field_media_caption
+        field_media_caption_formatted:
+          id: field_media_caption_formatted
+          table: node__field_media_caption_formatted
+          field: field_media_caption_formatted
           relationship: field_add_slide
           group_type: group
           admin_label: ''
@@ -463,9 +463,8 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: false
+          type: text_default
+          settings: {  }
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -477,10 +476,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_media_citation:
-          id: field_media_citation
-          table: node__field_media_citation
-          field: field_media_citation
+        field_media_citation_formatted:
+          id: field_media_citation_formatted
+          table: node__field_media_citation_formatted
+          field: field_media_citation_formatted
           relationship: field_add_slide
           group_type: group
           admin_label: ''
@@ -526,9 +525,8 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: false
+          type: text_default
+          settings: {  }
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -1141,8 +1139,8 @@ display:
         - 'config:field.storage.node.field_display_date'
         - 'config:field.storage.node.field_end_date'
         - 'config:field.storage.node.field_media'
-        - 'config:field.storage.node.field_media_caption'
-        - 'config:field.storage.node.field_media_citation'
+        - 'config:field.storage.node.field_media_caption_formatted'
+        - 'config:field.storage.node.field_media_citation_formatted'
         - 'config:field.storage.node.field_start_date'
         - 'config:field.storage.node.field_timeline_item_bg_color'
         - 'config:field.storage.node.field_type_of_slide'
@@ -1306,8 +1304,8 @@ display:
         - 'config:field.storage.node.field_display_date'
         - 'config:field.storage.node.field_end_date'
         - 'config:field.storage.node.field_media'
-        - 'config:field.storage.node.field_media_caption'
-        - 'config:field.storage.node.field_media_citation'
+        - 'config:field.storage.node.field_media_caption_formatted'
+        - 'config:field.storage.node.field_media_citation_formatted'
         - 'config:field.storage.node.field_start_date'
         - 'config:field.storage.node.field_timeline_item_bg_color'
         - 'config:field.storage.node.field_type_of_slide'
@@ -1618,10 +1616,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_media_caption:
-          id: field_media_caption
-          table: node__field_media_caption
-          field: field_media_caption
+        field_media_caption_formatted:
+          id: field_media_caption_formatted
+          table: node__field_media_caption_formatted
+          field: field_media_caption_formatted
           relationship: field_add_slide
           group_type: group
           admin_label: ''
@@ -1667,9 +1665,8 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: false
+          type: text_default
+          settings: {  }
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -1681,10 +1678,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_media_citation:
-          id: field_media_citation
-          table: node__field_media_citation
-          field: field_media_citation
+        field_media_citation_formatted:
+          id: field_media_citation_formatted
+          table: node__field_media_citation_formatted
+          field: field_media_citation_formatted
           relationship: field_add_slide
           group_type: group
           admin_label: ''
@@ -1730,9 +1727,8 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: false
+          type: text_default
+          settings: {  }
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -2207,8 +2203,8 @@ display:
         - 'config:field.storage.node.field_display_date'
         - 'config:field.storage.node.field_end_date'
         - 'config:field.storage.node.field_media'
-        - 'config:field.storage.node.field_media_caption'
-        - 'config:field.storage.node.field_media_citation'
+        - 'config:field.storage.node.field_media_caption_formatted'
+        - 'config:field.storage.node.field_media_citation_formatted'
         - 'config:field.storage.node.field_start_date'
         - 'config:field.storage.node.field_timeline_item_bg_color'
         - 'config:field.storage.node.field_type_of_slide'
@@ -2239,8 +2235,8 @@ display:
         - 'config:field.storage.node.field_display_date'
         - 'config:field.storage.node.field_end_date'
         - 'config:field.storage.node.field_media'
-        - 'config:field.storage.node.field_media_caption'
-        - 'config:field.storage.node.field_media_citation'
+        - 'config:field.storage.node.field_media_caption_formatted'
+        - 'config:field.storage.node.field_media_citation_formatted'
         - 'config:field.storage.node.field_start_date'
         - 'config:field.storage.node.field_timeline_item_bg_color'
         - 'config:field.storage.node.field_type_of_slide'

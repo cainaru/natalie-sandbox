@@ -5,7 +5,6 @@
 @mixin content-max-width($screen-breakpoint, $content-max-width) {
   @media (min-width: $screen-breakpoint) {
   	max-width: $content-max-width;
-  	@include center-block();
   }
 }
 

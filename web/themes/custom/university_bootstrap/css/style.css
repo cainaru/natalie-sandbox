@@ -253,26 +253,35 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
 
-@media (min-width: 768px) {
-  .content-container {
-    max-width: 65em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; } }
+.main-container.content-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 768px) {
+    .main-container.content-container {
+      max-width: 65em; } }
+
+.page-node-type-narrative .page-header-wrapper.not-full-width .page-header-content-container,
+.page-node-type-narrative .banner-media-not-full-width {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 768px) {
+    .page-node-type-narrative .page-header-wrapper.not-full-width .page-header-content-container,
+    .page-node-type-narrative .banner-media-not-full-width {
+      max-width: 70rem; } }
+
+.page-node-type-narrative .page-header-wrapper.full-width .page-header-content-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 768px) {
+    .page-node-type-narrative .page-header-wrapper.full-width .page-header-content-container {
+      max-width: 65em; } }
 
 @media (min-width: 768px) {
-  .banner-media-content-container {
-    max-width: 70rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; } }
-
-@media (min-width: 768px) {
-  .page-header-content-container {
-    max-width: 70rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; } }
+  .page-node-type-page .page-header-content-container {
+    max-width: 70rem; } }
 
 @font-face {
   font-family: "Source-Sans-Pro";
@@ -626,14 +635,17 @@ h6 {
 .page-header {
   margin-top: 3rem; }
 
-.page-node-type-narrative p {
-  margin-left: auto;
-  margin-right: auto; }
+@media (min-width: 768px) {
+  .page-node-type-narrative p {
+    margin-left: auto;
+    margin-right: auto; } }
 
 .subtitle {
   font-size: 2rem;
   font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
   line-height: 1.7; }
+  .subtitle p {
+    max-width: 100%; }
 
 .block-title {
   margin-top: 0; }
@@ -686,6 +698,17 @@ figcaption.banner-media-caption.caption {
   figcaption.banner-media-caption.caption .citation, figcaption.banner-media-caption.caption .citation p {
     font-size: 1.2rem;
     margin-top: 0; }
+
+@media (min-width: 768px) {
+  .page-header-wrapper.full-width {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 3rem 9rem 3rem;
+    margin-left: -15px;
+    margin-right: -15px;
+    z-index: 0;
+    color: #ffffff; } }
 
 .color-gray-light {
   background-color: #f2f2f2; }
