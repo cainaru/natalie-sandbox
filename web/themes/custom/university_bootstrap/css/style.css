@@ -635,9 +635,10 @@ h6 {
 .page-header {
   margin-top: 3rem; }
 
-.page-node-type-narrative p {
-  margin-left: auto;
-  margin-right: auto; }
+@media (min-width: 768px) {
+  .page-node-type-narrative p {
+    margin-left: auto;
+    margin-right: auto; } }
 
 .subtitle {
   font-size: 2rem;

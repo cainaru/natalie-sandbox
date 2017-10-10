@@ -106,8 +106,10 @@ h6 {
 }
 
 .page-node-type-narrative p {
-  margin-left: auto;
-  margin-right: auto;
+  @media (min-width: $screen-sm-min) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .subtitle {
