@@ -5,10 +5,14 @@ dependencies:
   config:
     - views.view.banner_media_block
   module:
+    - block_class
     - ctools
     - views
   theme:
     - university_bootstrap
+third_party_settings:
+  block_class:
+    classes: 'banner-media-full-width row clearfix'
 id: views_block__banner_media_block_block_1
 theme: university_bootstrap
 region: header

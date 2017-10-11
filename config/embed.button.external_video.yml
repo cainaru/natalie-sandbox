@@ -1,0 +1,22 @@
+uuid: 7a54ba06-1cd2-487e-abd9-e36d3e90d76b
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.video_external
+  module:
+    - entity_embed
+    - media_entity
+label: 'External Video'
+id: external_video
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - video_external
+  display_plugins:
+    - 'view_mode:media.entity_embed'
+  entity_browser: external_video_entity_embed_browser
+  entity_browser_settings:
+    display_review: true
+icon_uuid: null
