@@ -1,23 +1,22 @@
-uuid: 35fc2217-d012-4ccd-b38b-9257bf62d027
+uuid: 7a54ba06-1cd2-487e-abd9-e36d3e90d76b
 langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.image
+    - media_entity.bundle.video_external
   module:
     - entity_embed
     - media_entity
-label: Image
-id: image
+label: 'External Video'
+id: external_video
 type_id: entity
 type_settings:
   entity_type: media
   bundles:
-    - image
+    - video_external
   display_plugins:
-    - 'view_mode:media.scale_220x220'
-    - 'view_mode:media.scale_480x480'
-  entity_browser: image_entity_embed_browser
+    - 'view_mode:media.entity_embed'
+  entity_browser: external_video_entity_embed_browser
   entity_browser_settings:
     display_review: true
 icon_uuid: null
