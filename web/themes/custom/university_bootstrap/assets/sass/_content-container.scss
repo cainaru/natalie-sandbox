@@ -7,6 +7,11 @@
   @include center-block();
 }
 
+.main-container.edge-to-edge .content > .paragraph.text {
+  @include content-max-width($screen-sm-min, $content-max-width);
+  @include center-block();
+}
+
 .page-node-type-narrative .page-header-wrapper.not-full-width .page-header-content-container,
 .page-node-type-narrative .banner-media-not-full-width {
   @include content-max-width($screen-sm-min, 70rem);

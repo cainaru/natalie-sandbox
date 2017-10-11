@@ -261,6 +261,14 @@ input[type="button"].btn-block {
     .main-container.content-container {
       max-width: 65em; } }
 
+.main-container.edge-to-edge .content > .paragraph.text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 768px) {
+    .main-container.edge-to-edge .content > .paragraph.text {
+      max-width: 65em; } }
+
 .page-node-type-narrative .page-header-wrapper.not-full-width .page-header-content-container,
 .page-node-type-narrative .banner-media-not-full-width {
   display: block;
