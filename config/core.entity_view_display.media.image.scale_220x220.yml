@@ -1,0 +1,34 @@
+uuid: e6b53f06-0eab-42fb-8361-0048248a98f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.scale_220x220
+    - field.field.media.image.field_height
+    - field.field.media.image.field_image
+    - field.field.media.image.field_width
+    - image.style.medium
+    - media_entity.bundle.image
+  module:
+    - image
+id: media.image.scale_220x220
+targetEntityType: media
+bundle: image
+mode: scale_220x220
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  field_height: true
+  field_width: true
+  name: true
+  thumbnail: true
+  uid: true

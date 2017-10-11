@@ -15,6 +15,7 @@ type_settings:
   bundles:
     - image
   display_plugins:
+    - 'view_mode:media.scale_220x220'
     - 'view_mode:media.scale_480x480'
   entity_browser: image_entity_embed_browser
   entity_browser_settings:

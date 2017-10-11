@@ -1,0 +1,10 @@
+uuid: bc7da1ed-cd98-49b3-875f-ee508ed50aee
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.scale_220x220
+label: 'Scale 220x220'
+targetEntityType: media
+cache: true
