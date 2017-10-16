@@ -2,7 +2,8 @@
 //
 // Max-width for content when viewed on a designated screen.
 
-.main-container.content-container {
+.main-container.content-container,
+.content-container {
   @include content-max-width($screen-sm-min, $content-max-width);
   @include center-block();
 }
@@ -12,17 +13,18 @@
   @include center-block();
 }
 
-.page-node-type-narrative .page-header-wrapper.not-full-width .page-header-content-container,
+.page-node-type-narrative .page-header-content-container,
 .page-node-type-narrative .banner-media-not-full-width {
   @include content-max-width($screen-sm-min, 70rem);
   @include center-block();
 }
 
-.page-node-type-narrative .page-header-wrapper.full-width .page-header-content-container {
-  @include content-max-width($screen-sm-min, $content-max-width);
-  @include center-block();
-}
-
-.page-node-type-page .page-header-content-container {
-  @include content-max-width($screen-sm-min, 70rem);
+.page-node-type-narrative .no-featured-media {
+  @include clearfix();
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }

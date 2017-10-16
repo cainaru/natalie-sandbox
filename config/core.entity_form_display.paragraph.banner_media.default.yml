@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - entity_browser.browser.image_entity_embed_browser
+    - entity_browser.browser.modal_media_entity_browser
     - field.field.paragraph.banner_media.field_banner_media
     - field.field.paragraph.banner_media.field_banner_media_caption
     - field.field.paragraph.banner_media.field_banner_media_credit
@@ -38,7 +38,7 @@ content:
   field_banner_media:
     weight: 1
     settings:
-      entity_browser: image_entity_embed_browser
+      entity_browser: modal_media_entity_browser
       field_widget_display: rendered_entity
       field_widget_edit: true
       field_widget_remove: true

@@ -25,15 +25,20 @@ function university_bootstrap_preprocess_page(&$variables) {
     $variables['template_type'] = "content-container";
   }
 }
-
 /**
  * Implements hook_preprocess_HOOK().
  */
 function university_bootstrap_preprocess_page_title(&$variables) {
   if($node = \Drupal::routeMatch()->getParameter('node')) {
 
+    if($node->getType() == 'legacy_photo_essay' || $node->getType() == 'photograph'){
+      $variables['banner'] = true;
+       unset($variables['title']);
+    }
+
     $featured_media_present = (!empty($node->field_banner_media_element->entity->field_banner_media->entity->field_image->entity));
     if ($node->getType() == 'narrative' && $featured_media_present) {
+      $variables['featured_media_present'] = "featured-media";
       $featured_media_display = $node->get('field_banner_media_element')->entity->get('field_display_options')->getValue()[0]['value'];
       switch ($featured_media_display) {
         case "1":
@@ -43,9 +48,26 @@ function university_bootstrap_preprocess_page_title(&$variables) {
           $variables['featured_media_display_option'] = "not-full-width";
       }
     }
+    elseif ($node->getType() == 'narrative' && empty($featured_media_present)) {
+      $variables['featured_media_display_option'] = "no-featured-media";
+
+      if ($banner_color = $node->get('field_banner_color')->getValue()[0]['color']) {
+        $variables['banner_color'] .= "background-color: ".$banner_color.";";
+        if($banner_color_opacity = $node->get('field_banner_color')->getValue()[0]['opacity']){
+          $banner_color_values = hex2rgb($node->get('field_banner_color')->getValue()[0]['color']);
+          $banner_color_values[] = $banner_color_opacity;
+          $variables['banner_color'] .= "background-color: rgba(".implode(",",$banner_color_values).");";
+        }
+      }
+    }
 
     if ($node->field_subtitle) {
       $variables['subtitle'] = $node->get('field_subtitle')->getValue()[0]['value'];
+    }
+
+    $authorship_present = (!empty($node->field_authorship->entity));
+    if ($node->field_authorship && $authorship_present) {
+      $variables['byline'] = $node->get('field_authorship')->entity->getName();
     } 
   }
 }
