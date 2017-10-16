@@ -96,6 +96,10 @@ body.toolbar-fixed .page-header-wrapper.featured-media.full-width {
 .align-center .embedded-entity .media-video-external .video-embed-field-responsive-video {
   min-width: 290px;
 
+  @media (min-width: $screen-xs-min) {
+    min-width: 435px;
+  }
+
   @media (min-width: $screen-sm-min) {
     min-width: 70rem;
   }
@@ -106,7 +110,11 @@ body.toolbar-fixed .page-header-wrapper.featured-media.full-width {
 .align-right .embedded-entity .media-video-external .video-embed-field-responsive-video,
 .align-right.embedded-entity .media-video-external .video-embed-field-responsive-video {
   min-width: 290px;
-  
+
+  @media (min-width: $screen-xs-min) {
+    min-width: 435px;
+  }
+
   @media (min-width: $screen-sm-min) {
     min-width: $screen-xs-min;
   }

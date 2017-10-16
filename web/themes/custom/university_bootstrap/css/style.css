@@ -875,6 +875,9 @@ figcaption.banner-media-caption.caption {
 
 .align-center .embedded-entity .media-video-external .video-embed-field-responsive-video {
   min-width: 290px; }
+  @media (min-width: 480px) {
+    .align-center .embedded-entity .media-video-external .video-embed-field-responsive-video {
+      min-width: 435px; } }
   @media (min-width: 768px) {
     .align-center .embedded-entity .media-video-external .video-embed-field-responsive-video {
       min-width: 70rem; } }
@@ -884,6 +887,12 @@ figcaption.banner-media-caption.caption {
 .align-right .embedded-entity .media-video-external .video-embed-field-responsive-video,
 .align-right.embedded-entity .media-video-external .video-embed-field-responsive-video {
   min-width: 290px; }
+  @media (min-width: 480px) {
+    .align-left .embedded-entity .media-video-external .video-embed-field-responsive-video,
+    .align-left.embedded-entity .media-video-external .video-embed-field-responsive-video,
+    .align-right .embedded-entity .media-video-external .video-embed-field-responsive-video,
+    .align-right.embedded-entity .media-video-external .video-embed-field-responsive-video {
+      min-width: 435px; } }
   @media (min-width: 768px) {
     .align-left .embedded-entity .media-video-external .video-embed-field-responsive-video,
     .align-left.embedded-entity .media-video-external .video-embed-field-responsive-video,
