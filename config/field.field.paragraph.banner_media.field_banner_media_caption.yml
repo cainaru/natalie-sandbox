@@ -6,7 +6,15 @@ dependencies:
     - field.storage.paragraph.field_banner_media_caption
     - paragraphs.paragraphs_type.banner_media
   module:
+    - allowed_formats
     - text
+third_party_settings:
+  allowed_formats:
+    simple: simple
+    basic_html: '0'
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
 id: paragraph.banner_media.field_banner_media_caption
 field_name: field_banner_media_caption
 entity_type: paragraph

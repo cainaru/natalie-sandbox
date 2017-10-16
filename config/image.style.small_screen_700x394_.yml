@@ -1,14 +1,17 @@
 uuid: 278f131e-40ec-41a4-9e6f-00a2a007323e
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - focal_point
 name: small_screen_700x394_
 label: 'Small Screen (700x394)'
 effects:
-  5f5131ca-e1a8-4092-ae85-c5780268efae:
-    uuid: 5f5131ca-e1a8-4092-ae85-c5780268efae
-    id: image_scale_and_crop
-    weight: 1
+  e76a9ac2-713f-4a8c-80ed-9b053ddc6436:
+    uuid: e76a9ac2-713f-4a8c-80ed-9b053ddc6436
+    id: focal_point_scale_and_crop
+    weight: 2
     data:
       width: 700
       height: 394
+      crop_type: focal_point
