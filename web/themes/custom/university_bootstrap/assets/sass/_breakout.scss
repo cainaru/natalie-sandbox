@@ -1,9 +1,24 @@
-.paragraph.breakout {
-  margin-top: 2em;
-  margin-bottom: 2em;
+.breakout {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 
   & .container-fluid {
   	margin-top: 3rem;
   	margin-bottom: 3rem;
+  }
+}
+
+// Legacy Breakout
+
+.paragraph--type--breakout {
+  padding: 3rem 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
   }
 }

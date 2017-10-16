@@ -17,8 +17,19 @@
  */
 #}
 
+{% set my_attribute = create_attribute() %}
+
+{%
+  set page_header_wrapper_classes = [
+    'page-header-wrapper',
+    featured_media_present|clean_class,
+    featured_media_display_option|clean_class,
+  ]
+%}
+
 {% if title %}
-  <div class="page-header-wrapper {{ featured_media_display_option }}">
+  {% set title_content %}
+  <div{{ my_attribute.addClass(page_header_wrapper_classes).setAttribute('style', banner_color) }}>
     <div class="page-header-content-container">
       <h1{{ title_attributes.addClass('page-header') }}>{{ title }}</h1>
       {% if subtitle %}
@@ -26,6 +37,18 @@
           {{ subtitle|raw }}
         </div>
       {% endif %}
+      {% if byline %}
+        <div class="byline">
+          <span>By</span>
+          {{ byline }}
+        </div>
+      {% endif %}
     </div>
   </div>
+  {% endset %}
+
+  {% block header %}
+    {{ title_content }}
+  {% endblock %}
+
 {% endif %}
