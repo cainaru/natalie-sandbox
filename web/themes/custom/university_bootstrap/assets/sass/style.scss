@@ -93,6 +93,21 @@ body.toolbar-fixed .page-header-wrapper.featured-media.full-width {
   text-shadow: 0 0 5px #000000;
 }
 
+.align-center .embedded-entity .media-video-external .video-embed-field-responsive-video {
+  @media (min-width: $screen-sm-min) {
+    min-width: $content-max-width;
+  }
+}
+
+.align-left .embedded-entity .media-video-external .video-embed-field-responsive-video,
+.align-left.embedded-entity .media-video-external .video-embed-field-responsive-video,
+.align-right .embedded-entity .media-video-external .video-embed-field-responsive-video,
+.align-right.embedded-entity .media-video-external .video-embed-field-responsive-video {
+  @media (min-width: $screen-sm-min) {
+    min-width: $screen-xs-min;
+  }
+}
+
 .color-gray-light {
   background-color: $color-gray-light;
 }
