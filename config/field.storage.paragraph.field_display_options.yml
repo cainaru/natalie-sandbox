@@ -13,10 +13,10 @@ settings:
   allowed_values:
     -
       value: '1'
-      label: 'Option 1'
+      label: Full-width
     -
       value: '2'
-      label: 'Option 2'
+      label: 'Partial width'
   allowed_values_function: ''
 module: options
 locked: false
