@@ -49,7 +49,7 @@ function university_bootstrap_preprocess_page_title(&$variables) {
       }
     }
     elseif ($node->getType() == 'narrative' && empty($featured_media_present)) {
-      $variables['featured_media_display_option'] = "no-featured-media";
+      $variables['featured_media_present'] = "no-featured-media";
 
       if ($banner_color = $node->get('field_banner_color')->getValue()[0]['color']) {
         $variables['banner_color'] .= "background-color: ".$banner_color.";";
