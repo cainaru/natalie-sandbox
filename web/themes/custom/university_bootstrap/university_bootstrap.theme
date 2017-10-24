@@ -52,7 +52,7 @@ function university_bootstrap_preprocess_page_title(&$variables) {
       $variables['featured_media_present'] = "no-featured-media";
 
       if ($banner_color = $node->get('field_banner_color')->getValue()[0]['color']) {
-        $variables['banner_color'] .= "background-color: ".$banner_color.";";
+        $variables['banner_color'] = "background-color: ".$banner_color.";";
         if($banner_color_opacity = $node->get('field_banner_color')->getValue()[0]['opacity']){
           $banner_color_values = hex2rgb($node->get('field_banner_color')->getValue()[0]['color']);
           $banner_color_values[] = $banner_color_opacity;
