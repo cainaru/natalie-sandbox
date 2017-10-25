@@ -72,3 +72,14 @@ function university_bootstrap_preprocess_page_title(&$variables) {
     } 
   }
 }
+
+/**
+ * Implements hook_preprocess_paragraph__breakout().
+ */
+function university_bootstrap_preprocess_paragraph__breakout_2_0(&$variables){
+  $paragraph = $variables['paragraph'];
+  $variables['paragraph_breakout_2_0']['breakout_background_color'] = "";
+  if(!$paragraph->field_background_foreground->isEmpty()){
+    $variables['paragraph_breakout_2_0']['breakout_background_color'] = $paragraph->field_background_foreground->getValue()[0]['value'];
+  }
+}
