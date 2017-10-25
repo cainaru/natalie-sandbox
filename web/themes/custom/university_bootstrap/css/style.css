@@ -39,10 +39,22 @@
 .black-bg {
   background-color: #000000;
   color: #ffffff; }
+  .black-bg a {
+    color: #D6D7E1; }
+    .black-bg a:hover, .black-bg a:focus {
+      color: #ffffff; }
+    .black-bg a:visited {
+      color: #afaac1; }
 
 .gray-light-bg {
   background-color: #f2f2f2;
   color: #333333; }
+  .gray-light-bg a {
+    color: #07519E; }
+    .gray-light-bg a:hover, .gray-light-bg a:focus {
+      color: #042b55; }
+    .gray-light-bg a:visited {
+      color: #071f9e; }
 
 .breakout {
   margin-top: 3rem;
