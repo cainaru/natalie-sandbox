@@ -485,7 +485,7 @@ figure[role=group] {
   line-height: 1.5; }
 
 body.navbar-is-fixed-top {
-  margin-top: 50px; }
+  margin-top: 55px; }
 
 .navbar-toggle {
   border: none; }
@@ -499,9 +499,9 @@ h1.navbar-brand {
   padding: 0px; }
   h1.navbar-brand a {
     float: left;
-    height: 50px;
+    height: 54px;
     padding: 15px 15px;
-    line-height: 20px;
+    line-height: 21px;
     text-decoration: none; }
 
 .nav > li > a,
