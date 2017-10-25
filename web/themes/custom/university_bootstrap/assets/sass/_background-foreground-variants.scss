@@ -5,4 +5,10 @@
 
 .black-bg {
   @include background-foreground-variant($color-black, $color-white);
+  // Background: #000000, Foreground: #FFFFFF -- Contrast Ratio: 21.00:1
+}
+
+.gray-light-bg {
+  @include background-foreground-variant($color-gray-light, #333333);
+  // Background: #F2F2F2, Foreground: #333333 -- Contrast Ratio: 11.29:1
 }

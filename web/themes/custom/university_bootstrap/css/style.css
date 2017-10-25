@@ -40,6 +40,10 @@
   background-color: #000000;
   color: #ffffff; }
 
+.gray-light-bg {
+  background-color: #f2f2f2;
+  color: #333333; }
+
 .breakout {
   margin-top: 3rem;
   margin-bottom: 3rem; }
