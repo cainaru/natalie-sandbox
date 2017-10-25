@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Place your custom styles here.
  */
@@ -103,7 +104,7 @@
   white-space: nowrap;
   text-decoration: none;
   padding: 1rem 2rem;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   line-height: 1;
   border-radius: 3px; }
 
@@ -467,13 +468,13 @@ figure[role=group] {
   padding-bottom: 3rem; }
 
 .university-info h3 {
-  font-family: "Source-Sans-Pro", Helvetica, Arial, sans-serif;
+  font-family: "Avenir", "Helvetica", sans-serif;
   margin: 0; }
   .university-info h3 span {
     font-weight: 400; }
 
 .university-info address {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   line-height: 1.5;
   margin-bottom: 0; }
 
@@ -481,7 +482,7 @@ figure[role=group] {
   display: inline-block; }
 
 .copyright {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   line-height: 1.5; }
 
 body.navbar-is-fixed-top {
@@ -508,35 +509,21 @@ h1.navbar-brand {
 .nav .dropdown-menu > li > a {
   text-decoration: none; }
 
-.navbar-nav .open .dropdown-menu,
-.navbar-nav .dropdown-menu {
-  font-size: 1.7rem; }
-  .navbar-nav .open .dropdown-menu li > a,
-  .navbar-nav .dropdown-menu li > a {
-    padding-top: 10px;
-    padding-bottom: 10px; }
+.navbar-nav,  .navbar-nav > li > a, .navbar-nav .open .dropdown-menu li > a, .navbar-nav .dropdown-menu li > a  {
+  font-size: 1.6rem;
+  line-height: 1.5; }
 
-.navbar-nav > ul > li > a {
+.navbar-nav ul > li > a {
   padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 20px; }
+  padding-bottom: 10px; }
   @media (min-width: 768px) {
-    .navbar-nav > ul > li > a {
+    .navbar-nav ul > li > a {
       padding-top: 15px;
       padding-bottom: 15px; } }
-
-.navbar-inverse .navbar-nav ul > li > a {
-  color: #fff;
-  font-weight: 500; }
-  .navbar-inverse .navbar-nav ul > li > a:hover, .navbar-inverse .navbar-nav ul > li > a:focus {
-    color: #DECFA8;
-    background-color: transparent; }
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #DECFA8;
-  background-color: #090909; }
-.navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
-  color: #444;
-  background-color: transparent; }
+.navbar-nav .open .dropdown-menu li > a,
+.navbar-nav .dropdown-menu li > a {
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .navbar-default {
   background-color: #f8f8f8;
@@ -756,8 +743,11 @@ html {
   font-size: 10px; }
 
 body {
-  font-size: 1.7rem;
-  font-family: "Source-Sans-Pro", Helvetica, Arial, sans-serif; }
+  font-size: 1.8rem;
+  font-family: "Avenir", "Helvetica", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility; }
 
 p {
   line-height: 1.5;
@@ -781,7 +771,7 @@ h6 {
   margin-top: 1.5em; }
 
 h6 {
-  font-family: "Source-Sans-Pro", Helvetica, Arial, sans-serif; }
+  font-family: "Avenir", "Helvetica", sans-serif; }
 
 h1 {
   font-size: 4rem;
@@ -796,7 +786,7 @@ h3 {
   font-weight: 600; }
 
 h4 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 600; }
 
 h5 {
@@ -805,7 +795,7 @@ h5 {
 
 h6 {
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   text-transform: uppercase; }
 
@@ -832,7 +822,7 @@ h6 {
   margin-top: 0; }
 
 .featured-section .block-title {
-  font-family: "Source-Sans-Pro", Helvetica, Arial, sans-serif;
+  font-family: "Avenir", "Helvetica", sans-serif;
   font-weight: 500;
   margin-bottom: 1em; }
 
