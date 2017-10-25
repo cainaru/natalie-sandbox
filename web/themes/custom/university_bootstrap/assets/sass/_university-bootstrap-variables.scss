@@ -1,0 +1,129 @@
+// University Bootstrap variables (Digital Initiatives at St. Lawrence University)
+
+// Typography
+//
+// These variables are based off of 
+// https://github.com/18F/web-design-standards/blob/develop/src/stylesheets/core/_variables.scss
+
+$em-base:             10px;
+$base-font-size:      1.8rem !default;
+$small-font-size:     1.4rem !default;
+$lead-font-size:      2rem !default;
+$title-font-size:     5.2rem !default;
+$h1-font-size:        4rem !default;
+$h2-font-size:        3rem !default;
+$h3-font-size:        2rem !default;
+$h4-font-size:        1.8rem !default;
+$h5-font-size:        1.5rem !default;
+$h6-font-size:        1.3rem !default;
+$base-line-height:    1.5 !default;
+$heading-line-height: 1.3 !default;
+$lead-line-height:    1.7 !default;
+
+// Font weights
+//
+// These variables are based off of 
+// https://github.com/18F/web-design-standards/blob/develop/src/stylesheets/core/_variables.scss
+
+$font-weight-normal:         300;
+$font-weight-bold:           600;
+
+// Colors
+//
+// These variables are based off of 
+// https://github.com/18F/web-design-standards/blob/develop/src/stylesheets/core/_variables.scss
+
+$color-white:                #ffffff;
+$color-black:                #000000;
+$color-black-light:          #212121;
+
+$color-red:                  #A90018; // SLU scarlet
+$color-red-darker:           #8F0014;
+$color-red-darkest:          #69000F;
+
+$color-brown:                #4b2b23;
+$color-brown-dark:           #3C221C;
+$color-brown-light:          #663a2b;
+
+$color-gold: #DECFA8;
+
+$color-gray-light: #f2f2f2;
+
+$color-blue-dark: #33455B;
+
+// Functional colors
+//
+// These variables are based off of 
+// https://github.com/18F/web-design-standards/blob/develop/src/stylesheets/core/_variables.scss
+
+$color-primary:              $color-red;
+
+$color-secondary:            $color-brown;
+$color-secondary-dark:       $color-brown-dark;
+$color-secondary-light:      $color-brown-light;
+
+$font-family-sans-serif:  "Avenir","Helvetica",sans-serif;
+$font-family-serif:       "Merriweather", Georgia, "Times New Roman", Times, serif;
+
+// Max-width for content
+$content-max-width: 65em;
+
+
+//== Components
+//
+//## Define common padding and border radius sizes and more.
+
+$border-radius-base:        3px;
+$border-radius-large:       3px;
+$border-radius-small:       3px;
+
+//== Buttons
+//
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-base:         $border-radius-base;
+$btn-border-radius-large:        $border-radius-large;
+$btn-border-radius-small:        $border-radius-small;
+
+
+//== Navbar
+//
+
+//=== Inverted navbar
+// Reset inverted navbar basics
+$navbar-inverse-color:                      #fff; // Override Bootstrap's forced gray color to make color contrast with Bootstrap's $navbar-inverse-bg accessible
+
+// Inverted navbar links
+$navbar-inverse-link-color:                 #fff; // Override Bootstrap's forced gray color to make color contrast with Bootstrap's $navbar-inverse-bg accessible
+$navbar-inverse-link-hover-color:           $color-gold;
+$navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color;
+
+// Inverted navbar brand label
+$navbar-inverse-brand-color:                $navbar-inverse-link-color;
+$navbar-inverse-brand-hover-color:          $color-gold;
+
+
+//=== University Scarlet Inverted navbar
+// Reset University Scarlet inverted navbar basics
+$university-scarlet-navbar-inverse-color:                      #fff;
+$university-scarlet-navbar-inverse-bg:                         $color-red;
+$university-scarlet-navbar-inverse-border:                     darken($university-scarlet-navbar-inverse-bg, 5%);
+
+// University Scarlet Inverted navbar links
+$university-scarlet-navbar-inverse-link-color:                 #fff;
+$university-scarlet-navbar-inverse-link-hover-color:           $color-gold;
+$university-scarlet-navbar-inverse-link-hover-bg:              transparent;
+$university-scarlet-navbar-inverse-link-active-color:          $university-scarlet-navbar-inverse-link-hover-color;
+$university-scarlet-navbar-inverse-link-active-bg:             darken($university-scarlet-navbar-inverse-bg, 5%);
+$university-scarlet-navbar-inverse-link-disabled-color:        #444;
+$university-scarlet-navbar-inverse-link-disabled-bg:           transparent;
+
+// University Scarlet Inverted navbar brand label
+$university-scarlet-navbar-inverse-brand-color:                $university-scarlet-navbar-inverse-link-color;
+$university-scarlet-navbar-inverse-brand-hover-color:          $color-gold;
+$university-scarlet-navbar-inverse-brand-hover-bg:             transparent;
+
+// University Scarlet Inverted navbar toggle
+$university-scarlet-navbar-inverse-toggle-hover-bg:            darken($university-scarlet-navbar-inverse-bg, 5%);
+$university-scarlet-navbar-inverse-toggle-icon-bar-bg:         #fff;
+$university-scarlet-navbar-inverse-toggle-border-color:        darken($university-scarlet-navbar-inverse-bg, 5%);

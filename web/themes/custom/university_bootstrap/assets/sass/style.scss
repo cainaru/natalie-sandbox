@@ -2,9 +2,11 @@
  * Place your custom styles here.
  */
 
-@import "default-variables";
+@import "bootstrap-variables";
+@import "university-bootstrap-variables";
 
 // Mixins
+@import "mixins/background-foreground-variant";
 @import "mixins/buttons";
 @import "mixins/center-block";
 @import "mixins/clearfix";
@@ -12,35 +14,18 @@
 
 // Overrides
 @import "aside";
+@import "background-foreground-variants";
 @import "breakout";
 @import "breakout-columns";
 @import "buttons";
 @import "content-container";
 @import "double";
+@import "embedded-media";
 @import "fonts";
 @import "footer";
 @import "navbar";
 @import "typography";
 
-figure[role=group] {
-  display: table;
-
-  &.align-left,
-  &.align-right {
-    margin: 1em;
-  }
-
-  & > .embedded-entity {
-    display: block;
-    max-width: 100%;
-  }
-
-  & > figcaption {
-    display: table-caption;
-    caption-side: bottom;
-    max-width: none;
-  }
-}
 
 figcaption.banner-media-caption.caption {
   display: block;

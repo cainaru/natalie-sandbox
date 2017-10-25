@@ -1,0 +1,8 @@
+// Background-foreground variants mixin
+//
+// Easily pump out background-foreground variants for blocks and row-breakouts.
+
+@mixin background-foreground-variant($background, $text-color) {
+  background-color: $background;
+  color: $text-color;
+}
