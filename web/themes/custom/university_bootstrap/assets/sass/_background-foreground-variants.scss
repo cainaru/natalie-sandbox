@@ -1,0 +1,8 @@
+// Background-foreground variants
+//
+// Background-foreground combinations for blocks and row-breakouts.
+
+
+.black-bg {
+  @include background-foreground-variant($color-black, $color-white);
+}

@@ -36,6 +36,10 @@
     max-width: 20em;
     float: right; }
 
+.black-bg {
+  background-color: #000000;
+  color: #ffffff; }
+
 .breakout {
   margin-top: 3rem;
   margin-bottom: 3rem; }
@@ -594,6 +598,18 @@ h1.navbar-brand {
     color: #fff;
     font-weight: 500; }
     .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+      color: #DECFA8;
+      background-color: transparent; }
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #DECFA8;
+    background-color: #090909; }
+  .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
+    color: #444;
+    background-color: transparent; }
+  .navbar-inverse .navbar-nav ul > li > a {
+    color: #fff;
+    font-weight: 500; }
+    .navbar-inverse .navbar-nav ul > li > a:hover, .navbar-inverse .navbar-nav ul > li > a:focus {
       color: #DECFA8;
       background-color: transparent; }
   .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {

@@ -51,7 +51,8 @@ function university_bootstrap_preprocess_page_title(&$variables) {
     elseif ($node->getType() == 'narrative' && empty($featured_media_present)) {
       $variables['featured_media_present'] = "no-featured-media";
 
-      if ($banner_color = $node->get('field_banner_color')->getValue()[0]['color']) {
+      if ($node->get('field_banner_color')->getValue()) {
+        $banner_color = $node->get('field_banner_color')->getValue()[0]['color'];
         $variables['banner_color'] = "background-color: ".$banner_color.";";
         if($banner_color_opacity = $node->get('field_banner_color')->getValue()[0]['opacity']){
           $banner_color_values = hex2rgb($node->get('field_banner_color')->getValue()[0]['color']);
@@ -61,7 +62,7 @@ function university_bootstrap_preprocess_page_title(&$variables) {
       }
     }
 
-    if ($node->field_subtitle) {
+    if ($node->field_subtitle && $node->get('field_subtitle')->getValue()) {
       $variables['subtitle'] = $node->get('field_subtitle')->getValue()[0]['value'];
     }
 
