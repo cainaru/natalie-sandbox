@@ -1,15 +1,23 @@
 .breakout {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  // margin-top: 3rem;
+  // margin-bottom: 3rem;
 
   & .container-fluid {
   	margin-top: 3rem;
   	margin-bottom: 3rem;
   }
 
-  & + .breakout {
-    margin-top: 0;
-    margin-bottom: 0;
+  // & + .breakout {
+  //   margin-top: 0;
+  //   margin-bottom: 0;
+  // }
+
+  .text + & {
+    margin-top: 3rem;
+  }
+
+  & + .text {
+    margin-top: 3rem;
   }
 }
 
