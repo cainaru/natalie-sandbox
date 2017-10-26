@@ -126,17 +126,13 @@
     .gold-bg a:visited {
       color: #071f9e; }
 
-.breakout {
+.breakout .container-fluid {
   margin-top: 3rem;
   margin-bottom: 3rem; }
-  .breakout .container-fluid {
-    margin-top: 3rem;
-    margin-bottom: 3rem; }
-  .breakout + .breakout {
-    margin-top: 0;
-    margin-bottom: 0; }
-  .breakout + .breakout:nth-last-child(-n+2) {
-    margin-bottom: 3rem; }
+.text + .breakout {
+  margin-top: 3rem; }
+.breakout + .text {
+  margin-top: 3rem; }
 
 .paragraph--type--breakout {
   padding: 3rem 0;
