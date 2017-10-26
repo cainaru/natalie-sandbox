@@ -39,10 +39,92 @@
 .black-bg {
   background-color: #000000;
   color: #ffffff; }
+  .black-bg a {
+    color: #D6D7E1; }
+    .black-bg a:hover, .black-bg a:focus {
+      color: #ffffff; }
+    .black-bg a:visited {
+      color: #afaac1; }
 
-.gray-light-bg {
+.blue-dark-bg {
+  background-color: #33455B;
+  color: #ffffff; }
+  .blue-dark-bg a {
+    color: #D7D9EA; }
+    .blue-dark-bg a:hover, .blue-dark-bg a:focus {
+      color: #ffffff; }
+    .blue-dark-bg a:visited {
+      color: #B5AAD2; }
+
+.brown-bg {
+  background-color: #4b2b23;
+  color: #ffffff; }
+  .brown-bg a {
+    color: #CAD1CF; }
+    .brown-bg a:hover, .brown-bg a:focus {
+      color: #ffffff; }
+    .brown-bg a:visited {
+      color: #a1adad; }
+
+.brown-dark-bg {
+  background-color: #3C221C;
+  color: #ffffff; }
+  .brown-dark-bg a {
+    color: #CAD1CF; }
+    .brown-dark-bg a:hover, .brown-dark-bg a:focus {
+      color: #ffffff; }
+    .brown-dark-bg a:visited {
+      color: #a1adad; }
+
+.red-bg {
+  background-color: #A90018;
+  color: #ffffff; }
+  .red-bg a {
+    color: #CCCCCC; }
+    .red-bg a:hover, .red-bg a:focus {
+      color: #ffffff; }
+    .red-bg a:visited {
+      color: #a6a6a6; }
+
+.red-darker-bg {
+  background-color: #8F0014;
+  color: #ffffff; }
+  .red-darker-bg a {
+    color: #CCCCCC; }
+    .red-darker-bg a:hover, .red-darker-bg a:focus {
+      color: #ffffff; }
+    .red-darker-bg a:visited {
+      color: #a6a6a6; }
+
+.red-darkest-bg {
+  background-color: #69000F;
+  color: #ffffff; }
+  .red-darkest-bg a {
+    color: #CCCCCC; }
+    .red-darkest-bg a:hover, .red-darkest-bg a:focus {
+      color: #ffffff; }
+    .red-darkest-bg a:visited {
+      color: #a6a6a6; }
+
+.gray-lightest-bg {
   background-color: #f2f2f2;
   color: #333333; }
+  .gray-lightest-bg a {
+    color: #07519E; }
+    .gray-lightest-bg a:hover, .gray-lightest-bg a:focus {
+      color: #042b55; }
+    .gray-lightest-bg a:visited {
+      color: #071f9e; }
+
+.gold-bg {
+  background-color: #DECFA8;
+  color: #333333; }
+  .gold-bg a {
+    color: #07519E; }
+    .gold-bg a:hover, .gold-bg a:focus {
+      color: #042b55; }
+    .gold-bg a:visited {
+      color: #071f9e; }
 
 .breakout {
   margin-top: 3rem;
@@ -50,6 +132,9 @@
   .breakout .container-fluid {
     margin-top: 3rem;
     margin-bottom: 3rem; }
+  .breakout + .breakout {
+    margin-top: 0;
+    margin-bottom: 0; }
 
 .paragraph--type--breakout {
   padding: 3rem 0;
@@ -910,7 +995,7 @@ figcaption.banner-media-caption.caption {
   color: #ffffff;
   text-shadow: 0 0 5px #000000; }
 
-.color-gray-light {
+.color-gray-lightest {
   background-color: #f2f2f2; }
 
 .color-blue-dark {

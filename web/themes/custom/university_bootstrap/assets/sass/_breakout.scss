@@ -6,6 +6,11 @@
   	margin-top: 3rem;
   	margin-bottom: 3rem;
   }
+
+  & + .breakout {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 // Legacy Breakout

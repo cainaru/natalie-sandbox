@@ -6,9 +6,170 @@
 .black-bg {
   @include background-foreground-variant($color-black, $color-white);
   // Background: #000000, Foreground: #FFFFFF -- Contrast Ratio: 21.00:1
+
+  a {
+  	color: #D6D7E1;
+  	// Background: #000000, Foreground: #D6D7E1 -- Contrast Ratio: 14.67:1
+  	&:hover,
+    &:focus {
+      // Background: #000000, Foreground: #FFFFFF -- Contrast Ratio: 21.00:1
+      color: $color-white;
+    }
+    &:visited {
+      /// Background: #000000, Foreground: #AFAAC1 -- Contrast Ratio: 9.34:1
+      color: darken(adjust-hue(#D6D7E1, 20), 15%);
+    }
+  }
 }
 
-.gray-light-bg {
-  @include background-foreground-variant($color-gray-light, #333333);
+.blue-dark-bg {
+  @include background-foreground-variant($color-blue-dark, $color-white);
+  // Background: #33455B, Foreground: #FFFFFF -- Contrast Ratio: 9.80:1
+
+  a {
+  	color: #D7D9EA;
+  	// Background: #33455B, Foreground: #D7D9EA -- Contrast Ratio: 7.00:1
+  	&:hover,
+    &:focus {
+      // Background: #33455B, Foreground: #FFFFFF -- Contrast Ratio: 9.80:1
+      color: $color-white;
+    }
+    &:visited {
+      /// Background: #33455B, Foreground: #B5AAD2 -- Contrast Ratio: 4.50:1
+      color: #B5AAD2;
+    }
+  }
+}
+
+.brown-bg {
+  @include background-foreground-variant($color-brown, $color-white);
+  // Background: #4B2B23, Foreground: #FFFFFF -- Contrast Ratio: 12.58:1
+
+  a {
+  	color: #CAD1CF;
+  	// Background: #4B2B23, Foreground: #CAD1CF -- Contrast Ratio: 8.11:1
+  	&:hover,
+    &:focus {
+      // Background: #4B2B23, Foreground: #FFFFFF -- Contrast Ratio: 12.58:1
+      color: $color-white;
+    }
+    &:visited {
+      /// Background: #4B2B23, Foreground: #AFAAC1 -- Contrast Ratio: 9.34:1
+      color: darken(adjust-hue(#CAD1CF, 20), 15%);
+    }
+  }
+}
+
+.brown-dark-bg {
+  @include background-foreground-variant($color-brown-dark, $color-white);
+  // Background: #4B2B23, Foreground: #FFFFFF -- Contrast Ratio: 12.58:1
+
+  a {
+  	color: #CAD1CF;
+  	// Background: #4B2B23, Foreground: #CAD1CF -- Contrast Ratio: 8.11:1
+  	&:hover,
+    &:focus {
+      // Background: #4B2B23, Foreground: #FFFFFF -- Contrast Ratio: 12.58:1
+      color: $color-white;
+    }
+    &:visited {
+      /// Background: #4B2B23, Foreground: #AFAAC1 -- Contrast Ratio: 9.34:1
+      color: darken(adjust-hue(#CAD1CF, 20), 15%);
+    }
+  }
+}
+
+.red-bg {
+  @include background-foreground-variant($color-red, $color-white);
+  // Background: #A90018, Foreground: #FFFFFF -- Contrast Ratio: 7.78:1
+
+  a {
+  	color: #CCCCCC;
+  	// Background: #A90018, Foreground: #CCCCCC -- Contrast Ratio: 4.84:1
+  	&:hover,
+    &:focus {
+      // Background: #A90018, Foreground: #FFFFFF -- Contrast Ratio: 7.78:1
+      color: $color-white;
+    }
+    &:visited {
+      /// Background: #A90018, Foreground: NEED TO FIND GOOD COLOR -- Contrast Ratio: NEED TO FIND GOOD COLOR
+      color: darken(adjust-hue(#CCCCCC, 30), 15%);
+    }
+  }
+}
+
+.red-darker-bg {
+  @include background-foreground-variant($color-red-darker, $color-white);
+  // Background: #A90018, Foreground: #FFFFFF -- Contrast Ratio: 7.78:1
+
+  a {
+  	color: #CCCCCC;
+  	// Background: #A90018, Foreground: #CCCCCC -- Contrast Ratio: 4.84:1
+  	&:hover,
+    &:focus {
+      // Background: #A90018, Foreground: #FFFFFF -- Contrast Ratio: 7.78:1
+      color: $color-white;
+    }
+    &:visited {
+      /// Background: #A90018, Foreground: NEED TO FIND GOOD COLOR -- Contrast Ratio: NEED TO FIND GOOD COLOR
+      color: darken(adjust-hue(#CCCCCC, 30), 15%);
+    }
+  }
+}
+
+.red-darkest-bg {
+  @include background-foreground-variant($color-red-darkest, $color-white);
+  // Background: #A90018, Foreground: #FFFFFF -- Contrast Ratio: 7.78:1
+
+  a {
+  	color: #CCCCCC;
+  	// Background: #A90018, Foreground: #CCCCCC -- Contrast Ratio: 4.84:1
+  	&:hover,
+    &:focus {
+      // Background: #A90018, Foreground: #FFFFFF -- Contrast Ratio: 7.78:1
+      color: $color-white;
+    }
+    &:visited {
+      /// Background: #A90018, Foreground: NEED TO FIND GOOD COLOR -- Contrast Ratio: NEED TO FIND GOOD COLOR
+      color: darken(adjust-hue(#CCCCCC, 30), 15%);
+    }
+  }
+}
+
+.gray-lightest-bg {
+  @include background-foreground-variant($color-gray-lightest, #333333);
   // Background: #F2F2F2, Foreground: #333333 -- Contrast Ratio: 11.29:1
+
+  a {
+  	color: #07519E;
+  	// Background: #F2F2F2, Foreground: #07519E -- Contrast Ratio: 7.00:1
+  	&:hover,
+    &:focus {
+      // Background: #F2F2F2, Foreground: #042B55 -- Contrast Ratio: 12.66:1
+      color: darken(#07519E, 15%);
+    }
+    &:visited {
+      // Background: #F2F2F2, Foreground: #071F9E -- Contrast Ratio: 11.04:1
+      color: adjust-hue(#07519E, 20);
+    }
+  }
+}
+
+.gold-bg {
+  @include background-foreground-variant($color-gold, #333333);
+  // Background: #DECFA8, Foreground: #333333 -- Contrast Ratio: 8.18:1
+
+  a {
+  	color: #07519E;
+  	// Background: #DECFA8, Foreground: #07519E -- Contrast Ratio: 5.07:1
+  	&:hover,
+    &:focus {
+      // Background: #DECFA8, Foreground: #042B55 -- Contrast Ratio: 9.18:1
+      color: darken(#07519E, 15%);
+    }
+    &:visited {
+      // Background: #DECFA8, Foreground: #071F9E -- Contrast Ratio: 8.00:1
+      color: adjust-hue(#07519E, 20);
+    }
+  }
 }
