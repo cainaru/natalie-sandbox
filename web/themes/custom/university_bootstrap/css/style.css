@@ -135,6 +135,8 @@
   .breakout + .breakout {
     margin-top: 0;
     margin-bottom: 0; }
+  .breakout + .breakout:nth-last-child(-n+2) {
+    margin-bottom: 3rem; }
 
 .paragraph--type--breakout {
   padding: 3rem 0;
@@ -587,6 +589,7 @@ h1.navbar-brand {
   font-size: 2rem;
   font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
+  height: 54px;
   margin-bottom: 0px;
   margin-top: 0px;
   padding: 0px; }
@@ -978,18 +981,14 @@ figcaption.banner-media-caption.caption {
 @media (min-width: 768px) {
   .featured-media.full-width {
     position: absolute;
-    bottom: 24px;
+    top: 3vh;
     width: 100%;
-    padding: 0 3rem 3rem 3rem;
+    padding: 6rem 3rem 3rem 3rem;
     margin-left: -15px;
     margin-right: -15px;
     z-index: 0;
     color: #ffffff;
     text-shadow: 0 0 5px #000000; } }
-
-@media (min-width: 768px) {
-  body.toolbar-fixed .page-header-wrapper.featured-media.full-width {
-    bottom: 70px; } }
 
 .no-featured-media {
   color: #ffffff;

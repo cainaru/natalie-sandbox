@@ -56,20 +56,14 @@ figcaption.banner-media-caption.caption {
 .featured-media.full-width {
   @media (min-width: $screen-sm-min) {
     position: absolute;
-    bottom: 24px;
+    top: 3vh;
     width: 100%;
-    padding: 0 3rem 3rem 3rem;
+    padding: 6rem 3rem 3rem 3rem;
     margin-left: -15px;
     margin-right: -15px;
     z-index: 0;
     color: #ffffff;
     text-shadow: 0 0 5px #000000;
-  }
-}
-
-body.toolbar-fixed .page-header-wrapper.featured-media.full-width {
-  @media (min-width: $screen-sm-min) {
-    bottom: 70px;
   }
 }
 
