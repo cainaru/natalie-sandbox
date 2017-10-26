@@ -132,6 +132,9 @@
   .breakout .container-fluid {
     margin-top: 3rem;
     margin-bottom: 3rem; }
+  .breakout + .breakout {
+    margin-top: 0;
+    margin-bottom: 0; }
 
 .paragraph--type--breakout {
   padding: 3rem 0;
