@@ -46,14 +46,18 @@
     .black-bg a:visited {
       color: #afaac1; }
 
-.blue-dark-bg {
+.cool-blue-bg {
+  background-color: #3C5676;
+  color: #ffffff; }
+
+.cool-blue-dark-bg {
   background-color: #33455B;
   color: #ffffff; }
-  .blue-dark-bg a {
+  .cool-blue-dark-bg a {
     color: #D7D9EA; }
-    .blue-dark-bg a:hover, .blue-dark-bg a:focus {
+    .cool-blue-dark-bg a:hover, .cool-blue-dark-bg a:focus {
       color: #ffffff; }
-    .blue-dark-bg a:visited {
+    .cool-blue-dark-bg a:visited {
       color: #B5AAD2; }
 
 .brown-bg {
@@ -76,6 +80,16 @@
     .brown-dark-bg a:visited {
       color: #a1adad; }
 
+.brown-light-bg {
+  background-color: #663a2b;
+  color: #ffffff; }
+  .brown-light-bg a {
+    color: #CAD1CF; }
+    .brown-light-bg a:hover, .brown-light-bg a:focus {
+      color: #ffffff; }
+    .brown-light-bg a:visited {
+      color: #a1adad; }
+
 .red-bg {
   background-color: #A90018;
   color: #ffffff; }
@@ -86,8 +100,18 @@
     .red-bg a:visited {
       color: #a6a6a6; }
 
-.red-darker-bg {
+.red-dark-bg {
   background-color: #8F0014;
+  color: #ffffff; }
+  .red-dark-bg a {
+    color: #CCCCCC; }
+    .red-dark-bg a:hover, .red-dark-bg a:focus {
+      color: #ffffff; }
+    .red-dark-bg a:visited {
+      color: #a6a6a6; }
+
+.red-darker-bg {
+  background-color: #69000F;
   color: #ffffff; }
   .red-darker-bg a {
     color: #CCCCCC; }
@@ -97,7 +121,7 @@
       color: #a6a6a6; }
 
 .red-darkest-bg {
-  background-color: #69000F;
+  background-color: #47000A;
   color: #ffffff; }
   .red-darkest-bg a {
     color: #CCCCCC; }
@@ -105,6 +129,14 @@
       color: #ffffff; }
     .red-darkest-bg a:visited {
       color: #a6a6a6; }
+
+.indigo-bg {
+  background-color: #5B3776;
+  color: #ffffff; }
+
+.violet-bg {
+  background-color: #6C2D6C;
+  color: #ffffff; }
 
 .gray-lightest-bg {
   background-color: #f2f2f2;
@@ -118,7 +150,7 @@
 
 .gold-bg {
   background-color: #DECFA8;
-  color: #333333; }
+  color: #000000; }
   .gold-bg a {
     color: #07519E; }
     .gold-bg a:hover, .gold-bg a:focus {
@@ -993,7 +1025,7 @@ figcaption.banner-media-caption.caption {
 .color-gray-lightest {
   background-color: #f2f2f2; }
 
-.color-blue-dark {
+.color-slate-blue-dark {
   background-color: #33455B;
   color: #ffffff; }
 
