@@ -183,6 +183,21 @@
   }
 }
 
+.green-light-bg {
+  @include background-foreground-variant($color-green-light, $color-black);
+  // Background: #94ABA1, Foreground: #000000 -- Contrast Ratio: 
+}
+
+.green-bg {
+  @include background-foreground-variant($color-green, $color-white);
+  // Background: #295744, Foreground: #FFFFFF -- Contrast Ratio: 
+}
+
+.green-dark-bg {
+  @include background-foreground-variant($color-green-dark, $color-white);
+  // Background: #183428, Foreground: #FFFFFF -- Contrast Ratio: 
+}
+
 .indigo-bg {
   @include background-foreground-variant($color-indigo, $color-white);
   // Background: #5B3776, Foreground: #FFFFFF -- Contrast Ratio: 
