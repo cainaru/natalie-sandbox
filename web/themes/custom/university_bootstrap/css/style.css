@@ -46,6 +46,10 @@
     .black-bg a:visited {
       color: #afaac1; }
 
+.cool-blue-light-bg {
+  background-color: #9DAABA;
+  color: #000000; }
+
 .cool-blue-bg {
   background-color: #3C5676;
   color: #ffffff; }
@@ -150,8 +154,16 @@
   background-color: #5B3776;
   color: #ffffff; }
 
+.indigo-dark-bg {
+  background-color: #482C5E;
+  color: #ffffff; }
+
 .violet-bg {
   background-color: #6C2D6C;
+  color: #ffffff; }
+
+.violet-dark-bg {
+  background-color: #562456;
   color: #ffffff; }
 
 .gray-lightest-bg {

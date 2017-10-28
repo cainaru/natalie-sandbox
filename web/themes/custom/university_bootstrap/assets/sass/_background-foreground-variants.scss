@@ -26,6 +26,11 @@
   }
 }
 
+.cool-blue-light-bg {
+  @include background-foreground-variant($color-cool-blue-light, $color-black);
+  // Background: #9DAABA, Foreground: #000000 -- Contrast Ratio: 8.89:1
+}
+
 .cool-blue-bg {
   @include background-foreground-variant($color-cool-blue, $color-white);
   // Background: #3C5676, Foreground: #FFFFFF -- Contrast Ratio: 
@@ -213,9 +218,19 @@
   // Background: #5B3776, Foreground: #FFFFFF -- Contrast Ratio: 
 }
 
+.indigo-dark-bg {
+  @include background-foreground-variant($color-indigo-dark, $color-white);
+  // Background: #482C5E, Foreground: #FFFFFF -- Contrast Ratio: 
+}
+
 .violet-bg {
   @include background-foreground-variant($color-violet, $color-white);
   // Background: #6C2D6C, Foreground: #FFFFFF -- Contrast Ratio: 
+}
+
+.violet-dark-bg {
+  @include background-foreground-variant($color-violet-dark, $color-white);
+  // Background: #562456, Foreground: #FFFFFF -- Contrast Ratio: 
 }
 
 
