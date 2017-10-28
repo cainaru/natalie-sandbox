@@ -130,6 +130,18 @@
     .red-darkest-bg a:visited {
       color: #a6a6a6; }
 
+.green-light-bg {
+  background-color: #94ABA1;
+  color: #000000; }
+
+.green-bg {
+  background-color: #295744;
+  color: #ffffff; }
+
+.green-dark-bg {
+  background-color: #183428;
+  color: #ffffff; }
+
 .indigo-bg {
   background-color: #5B3776;
   color: #ffffff; }
