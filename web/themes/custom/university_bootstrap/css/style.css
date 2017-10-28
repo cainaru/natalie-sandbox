@@ -137,10 +137,14 @@
 .green-bg {
   background-color: #295744;
   color: #ffffff; }
+  .green-bg a {
+    color: #E4EEF6; }
 
 .green-dark-bg {
-  background-color: #183428;
+  background-color: #C2D0CC;
   color: #ffffff; }
+  .green-dark-bg a {
+    color: #D7E2F4; }
 
 .indigo-bg {
   background-color: #5B3776;

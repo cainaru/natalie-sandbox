@@ -191,11 +191,21 @@
 .green-bg {
   @include background-foreground-variant($color-green, $color-white);
   // Background: #295744, Foreground: #FFFFFF -- Contrast Ratio: 
+
+  a {
+  	color: #E4EEF6;
+  	// Background: #295744, Foreground: #C1F6FF -- Contrast Ratio:
+  }
 }
 
 .green-dark-bg {
   @include background-foreground-variant($color-green-dark, $color-white);
-  // Background: #183428, Foreground: #FFFFFF -- Contrast Ratio: 
+  // Background: #183428, Foreground: #FFFFFF -- Contrast Ratio:
+
+  a {
+  	color: #D7E2F4;
+  	// Background: #183428, Foreground: #D7E2F4 -- Contrast Ratio:
+  }
 }
 
 .indigo-bg {
